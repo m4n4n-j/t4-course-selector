@@ -361,10 +361,13 @@ export default function App() {
     });
   }, [filters]);
 
+
   const calendarData = useMemo(() => {
     const grid = {};
     DAY_BLOCKS.forEach(db => { TIMESLOTS.forEach(ts => { grid[`${db.id}_${ts.index}`] = []; }); });
-    COURSES.forEach(course => {
+
+    // FIX: Changed 'COURSES' to 'filteredCourses' so the calendar respects filters
+    filteredCourses.forEach(course => {
       course.sections.forEach(sec => {
         const key = `${sec.dayBlock}_${sec.slotIndex}`;
         if (grid[key]) grid[key].push({ course, section: sec });
@@ -375,7 +378,7 @@ export default function App() {
       });
     });
     return grid;
-  }, []);
+  }, [filteredCourses]); // FIX: Added filteredCourses as a dependency
 
   const toggleFilter = (type, value) => {
     setFilters(prev => ({ ...prev, [type]: prev[type].includes(value) ? prev[type].filter(v => v !== value) : [...prev[type], value] }));

@@ -174,9 +174,6 @@ function CalendarCell({ course, section, isSelected, isConflict, isSameCourse, i
   const ac = AREA_COLORS[course.area];
   const ref = useRef(null);
 
-  const maxNameLen = course.anchor === "PGPEM" ? 18 : 22; 
-  const displayName = course.name.length > maxNameLen ? course.name.slice(0, maxNameLen) + "…" : course.name;
-
   return (
     <div
       ref={ref}
@@ -198,36 +195,38 @@ function CalendarCell({ course, section, isSelected, isConflict, isSameCourse, i
       {/* Top area - Click to select */}
       <div
         onClick={() => { if (!dimmed) onToggle(); }}
-        style={{ cursor: dimmed ? "not-allowed" : "pointer", padding: "2px" }}
+        style={{ cursor: dimmed ? "not-allowed" : "pointer", padding: "2px", flexGrow: 1 }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 4, marginBottom: 1 }}>
-          <SentimentDot sentiment={course.sentiment} />
-          <span style={{ fontSize: 12, fontWeight: 700, color: isSelected ? (ac?.text || "#1d4ed8") : "#1e293b", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-            {displayName}
-          </span>
-          <AnchorBadge anchor={course.anchor} />
+        <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 4, marginBottom: 4 }}>
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 4, flex: 1 }}>
+            <div style={{ marginTop: 4 }}><SentimentDot sentiment={course.sentiment} /></div>
+            <span style={{ fontSize: 12, fontWeight: 700, color: isSelected ? (ac?.text || "#1d4ed8") : "#1e293b", lineHeight: 1.2 }}>
+              {course.name} <AnchorBadge anchor={course.anchor} />
+            </span>
+          </div>
+
+          <button
+            onClick={(e) => { e.stopPropagation(); onDetail(course); }}
+            style={{
+              background: "transparent", border: "none", padding: "0 2px",
+              fontSize: 14, color: "#94a3b8", cursor: "pointer",
+              transition: "color 0.15s", flexShrink: 0, height: 16, display: "flex", alignItems: "center"
+            }}
+            onMouseOver={e => e.currentTarget.style.color = "#475569"}
+            onMouseOut={e => e.currentTarget.style.color = "#94a3b8"}
+            title="View Details"
+          >
+            ⓘ
+          </button>
         </div>
-        <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
+
+        <div style={{ display: "flex", gap: 4, alignItems: "center", flexWrap: "wrap", marginTop: "auto" }}>
           <AreaTag area={course.area} small />
           <DemandBadge ratio={course.demandRatio} selected={course.totalSelected} seats={course.totalSeats} />
           {section.label !== "GR1" && <span style={{ fontSize: 9, color: "#94a3b8" }}>{section.label}</span>}
         </div>
         {isSameCourse && <div style={{ fontSize: 8, color: "#94a3b8", marginTop: 2 }}>other section selected</div>}
       </div>
-
-      {/* Bottom area - Click for Details */}
-      <button
-        onClick={(e) => { e.stopPropagation(); onDetail(course); }}
-        style={{
-          background: "#f1f5f9", border: "none", borderRadius: 4, padding: "3px 0",
-          fontSize: 10, fontWeight: 700, color: "#64748b", cursor: "pointer",
-          width: "100%", marginTop: "auto", transition: "background 0.15s"
-        }}
-        onMouseOver={e => e.currentTarget.style.background = "#e2e8f0"}
-        onMouseOut={e => e.currentTarget.style.background = "#f1f5f9"}
-      >
-        View Details
-      </button>
 
       {hovered && !dimmed && (
         <HoverCard course={course} style={{ top: "100%", left: 0, marginTop: 4 }} />

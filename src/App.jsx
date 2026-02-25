@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useCallback, useRef, useEffect } from "react";
+import html2canvas from "html2canvas";
 
 const AREA_COLORS = {
   Strat: { bg: "#fef2f2", text: "#b91c1c", border: "#fecaca", dot: "#ef4444", light: "#fff5f5" },
@@ -169,67 +170,102 @@ function HoverCard({ course, style }) {
   );
 }
 
-function CalendarCell({ course, section, isSelected, isConflict, isSameCourse, isFull, onToggle, onDetail }) {
+function CalendarCell({ course, section, isSelected, isConflict, isSameCourse, isFull, onToggle, onDetail, isRejected, onToggleReject }) {
   const [hovered, setHovered] = useState(false);
-  const dimmed = isConflict || isSameCourse || isFull;
+  const dimmed = isConflict || isSameCourse || isFull || isRejected;
   const ac = AREA_COLORS[course.area];
   const ref = useRef(null);
+
+  // When rejected, make it look flat and faded
+  const cellStyle = isRejected ? {
+    padding: "5px",
+    borderRadius: 6,
+    border: "1px solid #e2e8f0",
+    background: "#f8fafc",
+    opacity: 0.35,
+    transition: "all 0.15s",
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    gap: 4
+  } : {
+    padding: "5px",
+    borderRadius: 6,
+    border: isSelected ? `2px solid ${ac?.dot || "#2563eb"}` : `1px solid ${dimmed ? "#f1f5f9" : "#e2e8f0"}`,
+    background: isSelected ? (ac?.light || "#eff6ff") : dimmed ? "#fafafa" : "#fff",
+    opacity: dimmed ? 0.4 : 1,
+    transition: "all 0.15s",
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    gap: 4
+  };
 
   return (
     <div
       ref={ref}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      style={{
-        padding: "5px",
-        borderRadius: 6,
-        border: isSelected ? `2px solid ${ac?.dot || "#2563eb"}` : `1px solid ${dimmed ? "#f1f5f9" : "#e2e8f0"}`,
-        background: isSelected ? (ac?.light || "#eff6ff") : dimmed ? "#fafafa" : "#fff",
-        opacity: dimmed ? 0.4 : 1,
-        transition: "all 0.15s",
-        position: "relative",
-        display: "flex",
-        flexDirection: "column",
-        gap: 4
-      }}
+      style={cellStyle}
+      className={!isSelected ? "unselected-course" : ""} // Class for html2canvas filtering
     >
       {/* Top area - Click to select */}
       <div
-        onClick={() => { if (!dimmed) onToggle(); }}
-        style={{ cursor: dimmed ? "not-allowed" : "pointer", padding: "2px", flexGrow: 1 }}
+        onClick={() => { if (!dimmed && !isRejected) onToggle(); }}
+        style={{ cursor: (dimmed || isRejected) ? "not-allowed" : "pointer", padding: "2px", flexGrow: 1 }}
       >
         <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 4, marginBottom: 4 }}>
           <div style={{ display: "flex", alignItems: "flex-start", gap: 4, flex: 1 }}>
             <div style={{ marginTop: 4 }}><SentimentDot sentiment={course.sentiment} /></div>
-            <span style={{ fontSize: 12, fontWeight: 700, color: isSelected ? (ac?.text || "#1d4ed8") : "#1e293b", lineHeight: 1.2 }}>
+            <span style={{ fontSize: 12, fontWeight: 700, color: (isSelected && !isRejected) ? (ac?.text || "#1d4ed8") : "#1e293b", lineHeight: 1.2 }}>
               {course.name} <AnchorBadge anchor={course.anchor} />
             </span>
+            <button
+              onClick={(e) => { e.stopPropagation(); onDetail(course); }}
+              style={{
+                background: "transparent", border: "none", padding: "0",
+                fontSize: 14, color: "#94a3b8", cursor: "pointer",
+                transition: "color 0.15s", flexShrink: 0, height: 16, display: "flex", alignItems: "center",
+                opacity: isRejected ? 0 : 1 // Hide details icon when rejected
+              }}
+              onMouseOver={e => e.currentTarget.style.color = "#475569"}
+              onMouseOut={e => e.currentTarget.style.color = "#94a3b8"}
+              title="View Details"
+              disabled={isRejected}
+            >
+              ⓘ
+            </button>
           </div>
 
-          <button
-            onClick={(e) => { e.stopPropagation(); onDetail(course); }}
-            style={{
-              background: "transparent", border: "none", padding: "0 2px",
-              fontSize: 14, color: "#94a3b8", cursor: "pointer",
-              transition: "color 0.15s", flexShrink: 0, height: 16, display: "flex", alignItems: "center"
-            }}
-            onMouseOver={e => e.currentTarget.style.color = "#475569"}
-            onMouseOut={e => e.currentTarget.style.color = "#94a3b8"}
-            title="View Details"
-          >
-            ⓘ
-          </button>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <button
+              onClick={(e) => { e.stopPropagation(); onToggleReject(course.id); }}
+              style={{
+                background: "transparent", border: "none", padding: "0 2px",
+                fontSize: 14, color: isRejected ? "#3b82f6" : "#cbd5e1", cursor: "pointer",
+                transition: "all 0.15s", flexShrink: 0, height: 16, display: "flex", alignItems: "center", fontWeight: "bold"
+              }}
+              onMouseOver={e => e.currentTarget.style.color = isRejected ? "#2563eb" : "#ef4444"}
+              onMouseOut={e => e.currentTarget.style.color = isRejected ? "#3b82f6" : "#cbd5e1"}
+              title={isRejected ? "Undo Reject" : "Reject Course"}
+            >
+              {isRejected ? "↺" : "×"}
+            </button>
+          </div>
         </div>
 
-        <div style={{ display: "flex", gap: 4, alignItems: "center", flexWrap: "wrap", marginTop: "auto" }}>
-          <AreaTag area={course.area} small />
-          <DemandBadge ratio={course.demandRatio} selected={course.totalSelected} seats={course.totalSeats} />
-          {section.label !== "GR1" && <span style={{ fontSize: 9, color: "#94a3b8" }}>{section.label}</span>}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginTop: "auto" }}>
+          <div style={{ display: "flex", gap: 4, alignItems: "center", flexWrap: "wrap", opacity: isRejected ? 0.5 : 1 }}>
+            <AreaTag area={course.area} small />
+            <DemandBadge ratio={course.demandRatio} selected={course.totalSelected} seats={course.totalSeats} />
+            {section.label !== "GR1" && <span style={{ fontSize: 9, color: "#94a3b8" }}>{section.label}</span>}
+          </div>
         </div>
-        {isSameCourse && <div style={{ fontSize: 8, color: "#94a3b8", marginTop: 2 }}>other section selected</div>}
+        {isSameCourse && !isRejected && <div style={{ fontSize: 8, color: "#94a3b8", marginTop: 2 }}>other section selected</div>}
+        {isRejected && <div style={{ fontSize: 8, color: "#64748b", marginTop: 2, fontWeight: 600 }}>Rejected</div>}
       </div>
 
-      {hovered && !dimmed && (
+      {hovered && !dimmed && !isRejected && (
         <HoverCard course={course} style={{ top: "100%", left: 0, marginTop: 4 }} />
       )}
     </div>
@@ -347,14 +383,25 @@ export default function App() {
     return saved ? JSON.parse(saved) : {};
   });
 
+  const [rejectedCourses, setRejectedCourses] = useState(() => {
+    const saved = localStorage.getItem('t4-rejected');
+    return saved ? JSON.parse(saved) : [];
+  });
+
   const [detailCourse, setDetailCourse] = useState(null);
   const [filters, setFilters] = useState({ areas: [], sentiment: [], anchors: [], search: "" });
   const [view, setView] = useState("calendar");
+  const [isExporting, setIsExporting] = useState(false);
+  const calendarRef = useRef(null);
 
   // Save to local storage whenever selections change
   useEffect(() => {
     localStorage.setItem('t4-selections', JSON.stringify(selections));
   }, [selections]);
+
+  useEffect(() => {
+    localStorage.setItem('t4-rejected', JSON.stringify(rejectedCourses));
+  }, [rejectedCourses]);
 
   const selectedSections = useMemo(() => Object.values(selections), [selections]);
   const selectedCourseIds = useMemo(() => new Set(Object.keys(selections)), [selections]);
@@ -383,6 +430,77 @@ export default function App() {
       return { ...prev, [course.id]: section };
     });
   }, []);
+
+  const toggleReject = useCallback((courseId) => {
+    setRejectedCourses(prev => {
+      if (prev.includes(courseId)) {
+        return prev.filter(id => id !== courseId);
+      } else {
+        // If we reject it, also remove it from selections if it was selected
+        setSelections(curr => {
+          if (curr[courseId]) {
+            const next = { ...curr };
+            delete next[courseId];
+            return next;
+          }
+          return curr;
+        });
+        return [...prev, courseId];
+      }
+    });
+  }, []);
+
+  const handleExport = async () => {
+    if (!calendarRef.current) return;
+    setIsExporting(true);
+
+    try {
+      // Small delay to let the UI update (hide unselected courses)
+      await new Promise(r => setTimeout(r, 100));
+
+      const canvas = await html2canvas(calendarRef.current, {
+        scale: 2, // Higher quality
+        backgroundColor: "#f8fafc",
+        logging: false,
+        ignoreElements: (el) => el.classList.contains('unselected-course')
+      });
+
+      const blob = await new Promise(resolve => canvas.toBlob(resolve, "image/png"));
+      if (!blob) throw new Error("Could not generate image");
+
+      const file = new File([blob], `T4_Schedule_${new Date().toISOString().slice(0, 10)}.png`, { type: "image/png" });
+
+      const downloadFallback = () => {
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = file.name;
+        link.click();
+        URL.revokeObjectURL(url);
+      };
+
+      if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({
+            files: [file],
+            title: "My T4 Schedule",
+            text: "Check out my selected courses for Term 4!"
+          });
+        } catch (err) {
+          if (err.name !== "AbortError") {
+            downloadFallback();
+          }
+        }
+      } else {
+        downloadFallback();
+      }
+    } catch (err) {
+      console.error("Export failed:", err);
+      alert("Failed to export schedule. Please try again.");
+    } finally {
+      setIsExporting(false);
+    }
+  };
 
   const isSlotConflict = useCallback((course, section) => {
     if (selectedCourseIds.has(course.id)) return false;
@@ -448,6 +566,19 @@ export default function App() {
             <p style={{ margin: "2px 0 0", fontSize: 12, color: "#94a3b8" }}>IIM Bangalore · Term 4 Elective Bidding · Choose your 6 courses</p>
           </div>
           <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+            <button
+              onClick={handleExport}
+              disabled={selectedCount === 0 || isExporting || view !== "calendar"}
+              style={{
+                background: selectedCount > 0 && view === "calendar" ? "#3b82f6" : "#334155",
+                border: "none", color: selectedCount > 0 && view === "calendar" ? "#fff" : "#94a3b8",
+                padding: "8px 16px", borderRadius: 8, fontSize: 14, cursor: (selectedCount > 0 && view === "calendar") ? "pointer" : "not-allowed",
+                fontWeight: 700, transition: "all 0.2s", display: "flex", alignItems: "center", gap: 6,
+                opacity: isExporting ? 0.7 : 1
+              }}
+            >
+              {isExporting ? "⏳ Generating..." : "📸 Share Schedule"}
+            </button>
             <div style={{ background: selectedCount === 6 ? "#16a34a" : "#334155", padding: "8px 16px", borderRadius: 20, fontSize: 15, fontWeight: 800, transition: "all 0.3s", boxShadow: selectedCount === 6 ? "0 0 12px rgba(22,163,106,0.4)" : "none" }}>
               {selectedCount} / 6 selected
             </div>
@@ -542,7 +673,7 @@ export default function App() {
       </div>
 
       {/* Main View */}
-      <div style={{ padding: "12px 12px 80px" }}>
+      <div style={{ padding: "12px 12px 80px" }} ref={calendarRef}>
         {view === "calendar" ? (
           <div style={{ overflowX: "auto" }}>
             <div style={{ display: "grid", gridTemplateColumns: "64px 1fr 1fr 1fr", gap: 0, minWidth: 900 }}>
@@ -571,6 +702,7 @@ export default function App() {
                           const isSameCourse = selectedCourseIds.has(course.id) && !isSelected;
                           const isConflict = !isSelected && !isSameCourse && isSlotConflict(course, section);
                           const isFull = !isSelected && !isSameCourse && selectedCount >= 6;
+                          const isRejected = rejectedCourses.includes(course.id);
                           return (
                             <CalendarCell
                               key={section.id}
@@ -580,7 +712,9 @@ export default function App() {
                               isConflict={isConflict}
                               isSameCourse={isSameCourse}
                               isFull={isFull}
+                              isRejected={isRejected}
                               onToggle={() => toggleSection(course, section)}
+                              onToggleReject={toggleReject}
                               onDetail={setDetailCourse}
                             />
                           );
@@ -600,8 +734,9 @@ export default function App() {
             {filteredCourses.sort((a, b) => b.demandRatio - a.demandRatio).map(course => {
               const ac = AREA_COLORS[course.area];
               const isAnySelected = selectedCourseIds.has(course.id);
+              const isRejected = rejectedCourses.includes(course.id);
               return (
-                <div key={course.id} style={{ background: "#fff", borderRadius: 12, border: isAnySelected ? `2px solid ${ac?.dot || "#2563eb"}` : "1px solid #e2e8f0", overflow: "hidden", transition: "all 0.15s" }}>
+                <div key={course.id} style={{ background: isRejected ? "#f8fafc" : "#fff", borderRadius: 12, border: isAnySelected && !isRejected ? `2px solid ${ac?.dot || "#2563eb"}` : "1px solid #e2e8f0", overflow: "hidden", transition: "all 0.15s", opacity: isRejected ? 0.4 : 1 }}>
                   <div style={{ padding: "14px 16px" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 8 }}>
                       <div style={{ minWidth: 0 }}>
@@ -609,43 +744,67 @@ export default function App() {
                           {course.name} <AnchorBadge anchor={course.anchor} />
                         </div>
                         <div style={{ fontSize: 11, color: "#94a3b8", marginTop: 3 }}>{course.faculty} · {course.officialCode}</div>
-                        <div style={{ display: "flex", gap: 5, marginTop: 6, alignItems: "center", flexWrap: "wrap" }}>
+                        <div style={{ display: "flex", gap: 5, marginTop: 6, alignItems: "center", flexWrap: "wrap", opacity: isRejected ? 0.3 : 1 }}>
                           <AreaTag area={course.area} />
                           <SentimentBadge sentiment={course.sentiment} />
                           <DemandBadge ratio={course.demandRatio} selected={course.totalSelected} seats={course.totalSeats} />
                           {course.grading === "Qualitative" && <span style={{ fontSize: 10, color: "#db2777", fontWeight: 700 }}>Qualitative</span>}
                         </div>
                       </div>
-                      <button onClick={() => setDetailCourse(course)} style={{ background: "#f1f5f9", border: "none", borderRadius: 8, padding: "5px 10px", cursor: "pointer", fontSize: 12, color: "#475569", flexShrink: 0, fontWeight: 600 }}>
-                        Details →
-                      </button>
-                    </div>
-
-                    <div style={{ marginTop: 10, display: "flex", gap: 5, flexWrap: "wrap" }}>
-                      {course.sections.map(sec => {
-                        const isSelected = selections[course.id]?.id === sec.id;
-                        const isConflict = !isSelected && isSlotConflict(course, sec);
-                        const isFull = !isSelected && !selectedCourseIds.has(course.id) && selectedCount >= 6;
-                        const disabled = isConflict || isFull;
-                        return (
-                          <button
-                            key={sec.id}
-                            onClick={() => !disabled && toggleSection(course, sec)}
-                            style={{
-                              padding: "5px 12px", borderRadius: 8, fontSize: 11, fontWeight: 700, cursor: disabled ? "not-allowed" : "pointer",
-                              border: isSelected ? `2px solid ${ac?.dot || "#2563eb"}` : `1px solid ${disabled ? "#e2e8f0" : "#d1d5db"}`,
-                              background: isSelected ? (ac?.light || "#dbeafe") : disabled ? "#f8fafc" : "#fff",
-                              color: isSelected ? (ac?.text || "#1d4ed8") : disabled ? "#94a3b8" : "#334155",
-                              opacity: disabled ? 0.5 : 1, transition: "all 0.15s",
-                            }}
-                          >
-                            {sec.label} · {DAY_BLOCKS.find(d => d.id === sec.dayBlock)?.short} {sec.timeslot} {sec.isDoubleSlot ? "★3hr" : ""}
+                      <div style={{ display: "flex", gap: 6, alignItems: "center", flexShrink: 0 }}>
+                        {isRejected ? (
+                          <button onClick={() => toggleReject(course.id)} style={{ background: "#eff6ff", border: "1px solid #bfdbfe", borderRadius: 8, padding: "5px 10px", cursor: "pointer", fontSize: 12, color: "#2563eb", fontWeight: 600 }}>
+                            ↺ Undo Reject
                           </button>
-                        );
-                      })}
+                        ) : (
+                          <button onClick={() => setDetailCourse(course)} style={{ background: "#f1f5f9", border: "none", borderRadius: 8, padding: "5px 10px", cursor: "pointer", fontSize: 12, color: "#475569", fontWeight: 600 }}>
+                            Details →
+                          </button>
+                        )}
+                      </div>
                     </div>
 
-                    {course.reviewText && (
+                    <div style={{ marginTop: 10, display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 10 }}>
+                      <div style={{ display: "flex", gap: 5, flexWrap: "wrap", opacity: isRejected ? 0.3 : 1 }}>
+                        {course.sections.map(sec => {
+                          const isSelected = selections[course.id]?.id === sec.id;
+                          const isConflict = !isSelected && isSlotConflict(course, sec);
+                          const isFull = !isSelected && !selectedCourseIds.has(course.id) && selectedCount >= 6;
+                          const disabled = isConflict || isFull || isRejected;
+                          return (
+                            <button
+                              key={sec.id}
+                              onClick={() => !disabled && toggleSection(course, sec)}
+                              style={{
+                                padding: "5px 12px", borderRadius: 8, fontSize: 11, fontWeight: 700, cursor: disabled ? "not-allowed" : "pointer",
+                                border: isSelected ? `2px solid ${ac?.dot || "#2563eb"}` : `1px solid ${disabled ? "#e2e8f0" : "#d1d5db"}`,
+                                background: isSelected ? (ac?.light || "#dbeafe") : disabled ? "#f8fafc" : "#fff",
+                                color: isSelected ? (ac?.text || "#1d4ed8") : disabled ? "#94a3b8" : "#334155",
+                                opacity: disabled ? 0.5 : 1, transition: "all 0.15s",
+                              }}
+                            >
+                              {sec.label} · {DAY_BLOCKS.find(d => d.id === sec.dayBlock)?.short} {sec.timeslot} {sec.isDoubleSlot ? "★3hr" : ""}
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      {!isRejected && (
+                        <button
+                          onClick={() => toggleReject(course.id)}
+                          style={{
+                            background: "transparent", border: "1px solid #e2e8f0", borderRadius: 8, padding: "4px 8px", cursor: "pointer",
+                            fontSize: 11, color: "#94a3b8", fontWeight: 600, transition: "all 0.15s", flexShrink: 0
+                          }}
+                          onMouseOver={e => { e.currentTarget.style.background = "#fee2e2"; e.currentTarget.style.borderColor = "#fecaca"; e.currentTarget.style.color = "#dc2626"; }}
+                          onMouseOut={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = "#e2e8f0"; e.currentTarget.style.color = "#94a3b8"; }}
+                        >
+                          Reject
+                        </button>
+                      )}
+                    </div>
+
+                    {course.reviewText && !isRejected && (
                       <div style={{ marginTop: 8, fontSize: 11, color: "#64748b", lineHeight: 1.5, overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", whiteSpace: "pre-wrap" }}>
                         {course.reviewText}
                       </div>

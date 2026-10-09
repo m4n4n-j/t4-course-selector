@@ -2,12 +2,12 @@ import { useState, useEffect, useRef } from 'react';
 import data from './data/term6.json';
 import { DAYS, conflictWith, selectSection, workshopConflict, restoreSelections, restoreWorkshops, meetingLabel } from './schedule';
 import PlanShare, { PlanSheet } from './PlanShare';
+import { courseAreaStyle } from './course-colors';
 import './App.css';
 const {workshops, slots} = data;
 const courses = [...data.courses].sort((a,b)=>a.name.localeCompare(b.name));
 const historicCourses = courses.filter(c=>c.outlineStatus==='historical');
 const historicWorkshops = workshops.filter(w=>w.outlineStatus==='historical');
-const colors = {'F&A':'#15803d', Econ:'#15803d', POM:'#9333ea', Mktg:'#ea580c', Entre:'#65a30d', OBHRM:'#d97706', Interdis:'#a16207', Unconfirmed:'#64748b'};
 const KEY = 'iimb-term6-2026-selections-v1';
 function read(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } }
 function download(blob, name) {
@@ -17,7 +17,7 @@ function download(blob, name) {
 function Anchor({value}) {return <span className={`anchor ${value}`}>{value}</span>;}
 function CourseCard({course, section, selected, conflict, rejected, onSelect, onDetail, onReject, compact = false}) {
   return <article className={`course-card ${compact ? 'compact' : ''} ${selected ? 'selected' : ''} ${conflict ? 'clash' : ''} ${rejected ? 'rejected' : ''}`}
-    style={{'--area':colors[course.area] || '#64748b'}} draggable={!rejected}
+    style={{'--area':courseAreaStyle(course.area).color}} draggable={!rejected}
     onDragStart={e => { e.dataTransfer.setData('application/x-term6-section', JSON.stringify({courseId:course.id,sectionId:section.id})); e.dataTransfer.effectAllowed='copy'; }}>
     <div className="card-top"><button className="course-title" onClick={() => onDetail(course)} title={`Read details: ${course.name}`}>
       <b>{compact ? course.shortName : course.name}</b><span className={compact ? "course-full-name" : "course-acronym"}>{compact ? course.name : course.shortName}</span>

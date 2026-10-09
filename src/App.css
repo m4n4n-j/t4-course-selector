@@ -56,9 +56,6 @@
 .sheet-cell b{font-size:15px;color:#1e40af}.sheet-cell span{display:block;font-size:11px;color:#475569;margin-top:4px}
 .plan-sheet>h3{font-size:17px;margin:18px 0 10px}.sheet-course{padding:12px 0;border-bottom:1px solid #e2e8f0;overflow-wrap:anywhere}
 .sheet-course h3{font-size:14px;margin:0 0 6px}.sheet-course p{font-size:12px;margin:4px 0;color:#334155}.sheet-course h4{margin:12px 0 6px}
-.sheet-course-grid{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:18px}.sheet-course-grid .sheet-course{padding:16px;border:1px solid #cbd5e1;border-radius:8px}
-.sheet-course table{width:100%;border-collapse:collapse;font-size:12px}.sheet-course td{padding:5px;border-bottom:1px solid #e2e8f0}.sheet-course td:last-child{font-weight:700;text-align:right;white-space:nowrap}
-.sheet-course ul{padding-left:18px;font-size:12px}.sheet-course li{margin:5px 0}.sheet-review{background:#fffbeb;padding:10px;font-size:11px;margin-top:12px;color:#78350f}
 .sheet-footer{padding:16px 0 0;margin-top:14px;color:#475569;font-size:11px;border-top:1px solid #cbd5e1}
 .share-modal{width:760px}.share-modes{margin-bottom:14px}.share-actions{display:flex;gap:10px;flex-wrap:wrap}.share-actions button{font-size:14px;font-weight:650}
 .share-status,.share-help{font-size:13px;margin:12px 0!important}.share-preview{display:block;width:100%;height:auto;border:1px solid #cbd5e1;border-radius:7px;background:white}
@@ -66,3 +63,11 @@
 @media(max-width:700px){.share-actions button{flex:1 1 auto;font-size:13px}.plan-heading>div{width:100%}.plan-heading>div>span{flex:1 1 100%}}
 
 .selected-sheet-scroll .plan-sheet{width:100%;min-width:760px}
+
+.course-card.selected{border-left-color:var(--area)}
+.sheet-area-legend{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.sheet-area-legend span{display:flex;align-items:center;gap:6px;padding:5px 8px;border:1px solid;border-radius:5px;font-size:11px;font-weight:650}
+.sheet-area-legend i{display:inline-block;width:9px;height:9px;border-radius:2px}
+.sheet-cell{padding:7px}.sheet-event{padding:9px 5px;border-left:4px solid;border-radius:5px;text-align:center;margin:3px 0}
+.sheet-event small{display:block;font-size:10px;color:#475569;margin-top:3px}
+.sheet-course-coloured{border-left:4px solid;padding:10px 12px;margin:8px 0;background:#f8fafc}

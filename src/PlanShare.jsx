@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { DAYS, meetingLabel } from './schedule';
+import { courseAreaStyle } from './course-colors';
 
 function saveFile(file) {
   const url = URL.createObjectURL(file);
@@ -8,27 +9,29 @@ function saveFile(file) {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-export function PlanSheet({data, selections, selectedWorkshops, mode = 'schedule', captureRef}) {
+export function PlanSheet({data, selections, selectedWorkshops, captureRef}) {
   const selected = data.courses.filter(c => selections[c.id]).sort((a,b)=>a.name.localeCompare(b.name));
   const credits = selected.reduce((n,c)=>n+(c.credits || 0),0)+selectedWorkshops.reduce((n,w)=>n+w.credits,0);
+  const areaCounts = new Map();
+  for (const course of [...selected,...selectedWorkshops]) areaCounts.set(course.area,(areaCounts.get(course.area)||0)+1);
   return <div className="plan-sheet" ref={captureRef} data-plan-capture={captureRef ? 'true' : undefined}>
-    <header className="sheet-heading"><div><p>IIM BANGALORE · 2026–27</p><h2>My Term 6 {mode === 'schedule' ? 'timetable' : 'course summary'}</h2><p>{data.period}</p></div><div><b>{selected.length} courses{selectedWorkshops.length ? ` · ${selectedWorkshops.length} workshops` : ''}</b><p>{credits} confirmed credits</p></div></header>
-    {mode === 'schedule' && <div className="sheet-calendar"><div className="sheet-time">Time</div>{DAYS.map(d=><div className="sheet-day" key={d}>{d}</div>)}{data.slots.map(t=><div className="sheet-row" key={t.index}><div className="sheet-time">{t.start}<br/>{t.end}</div>{DAYS.map(day=><div className="sheet-cell" key={day}>{selected.filter(c=>selections[c.id].meetings.some(m=>m.day===day&&m.index===t.index)).map(c=><div key={c.id}><b>{c.id}</b><span>{selections[c.id].label}</span></div>)}</div>)}</div>)}</div>}
-    <h3>{mode === 'schedule' ? 'Selected courses' : 'Course outline summaries'}</h3>
-    <div className={mode === 'details' ? 'sheet-course-grid' : 'sheet-course-list'}>{selected.map(c=>{const section=selections[c.id];return <article className="sheet-course" key={c.id}><h3>{c.id} · {c.name}</h3><p>{c.faculty || 'Faculty unconfirmed'} · {c.credits ? `${c.credits} credits` : 'Credits unconfirmed'}</p><p><b>{section.label}</b> · {meetingLabel(section)}</p>{mode === 'details' && <><p>{c.grading || 'Grading unconfirmed'} · {c.outlineStatus === 'historical' ? 'Historical outline: current version needed' : 'Current outline supplied'}</p>{c.outline.length > 0 && <ul>{c.outline.map(item=><li key={item}>{item}</li>)}</ul>}{Object.keys(c.gradingBreakdown).length > 0 && <><h4>Assessment</h4><table><tbody>{Object.entries(c.gradingBreakdown).map(([label,weight])=><tr key={label}><td>{label}</td><td>{weight}</td></tr>)}</tbody></table></>}{c.evaluationNote && <p>{c.evaluationNote}</p>}{c.evaluationContext && <p>{c.evaluationContext}</p>}{c.issues.length > 0 && <div className="sheet-review"><b>Check before enrolling</b><ul>{c.issues.map((item,i)=><li key={i}>{item}</li>)}</ul></div>}</>}</article>;})}</div>
-    {selectedWorkshops.length > 0 && <><h3>Selected workshops</h3>{selectedWorkshops.map(w=><article className="sheet-course" key={w.id}><h3>{w.name}</h3><p>{w.faculty} · {w.credits} credits · {w.anchor}</p><p>{w.startDate}–{w.endDate}{w.start ? ` · ${w.start}–${w.end}` : ' · Travel workshop'}</p>{mode === 'details' && w.issues?.map((issue,i)=><p key={i}>{issue}</p>)}</article>)}</>}
-    <footer className="sheet-footer">Timetable source: {data.version}. Programme eligibility and flagged mappings need confirmation. PRE/POST clashes are checked conservatively. This is a planning summary; full outline PDFs are separate documents.</footer>
+    <header className="sheet-heading"><div><p>IIM BANGALORE · 2026–27</p><h2>My Term 6 timetable</h2><p>{data.period}</p></div><div><b>{selected.length} courses{selectedWorkshops.length ? ` · ${selectedWorkshops.length} workshops` : ''}</b><p>{credits} confirmed credits</p></div></header>
+    <div className="sheet-area-legend" aria-label="Selected course areas">{[...areaCounts].sort(([a],[b])=>String(a).localeCompare(String(b))).map(([area,count])=>{const palette=courseAreaStyle(area);return <span key={area} style={{backgroundColor:palette.tint,color:'#334155',borderColor:palette.color}}><i style={{backgroundColor:palette.color}}/>{palette.label} ({count})</span>;})}</div>
+    <div className="sheet-calendar"><div className="sheet-time">Time</div>{DAYS.map(d=><div className="sheet-day" key={d}>{d}</div>)}{data.slots.map(t=><div className="sheet-row" key={t.index}><div className="sheet-time">{t.start}<br/>{t.end}</div>{DAYS.map(day=><div className="sheet-cell" key={day}>{selected.filter(c=>selections[c.id].meetings.some(m=>m.day===day&&m.index===t.index)).map(c=>{const palette=courseAreaStyle(c.area);return <div className="sheet-event" key={c.id} style={{backgroundColor:palette.tint,borderLeftColor:palette.color}}><b>{c.id}</b><span>{selections[c.id].label}</span><small>{c.area}</small></div>;})}</div>)}</div>)}</div>
+    <h3>Selected courses</h3>
+    <div className="sheet-course-list">{selected.map(c=>{const section=selections[c.id],palette=courseAreaStyle(c.area);return <article className="sheet-course sheet-course-coloured" key={c.id} style={{borderLeftColor:palette.color}}><h3>{c.id} · {c.name}</h3><p><strong>{palette.label}</strong> · {c.faculty || 'Faculty unconfirmed'} · {c.credits ? `${c.credits} credits` : 'Credits unconfirmed'}</p><p><b>{section.label}</b> · {meetingLabel(section)}</p></article>;})}</div>
+    {selectedWorkshops.length > 0 && <><h3>Selected workshops</h3>{selectedWorkshops.map(w=>{const palette=courseAreaStyle(w.area);return <article className="sheet-course sheet-course-coloured" key={w.id} style={{borderLeftColor:palette.color}}><h3>{w.name}</h3><p><strong>{palette.label}</strong> · {w.faculty} · {w.credits} credits · {w.anchor}</p><p>{w.startDate}–{w.endDate}{w.start ? ` · ${w.start}–${w.end}` : ' · Travel workshop'}</p></article>;})}</>}
+    <footer className="sheet-footer">Timetable source: {data.version}. Programme eligibility and flagged mappings need confirmation. PRE/POST clashes are checked conservatively.</footer>
   </div>;
 }
 
 export default function PlanShare({data, selections, selectedWorkshops, onClose, onDownloadText}) {
-  const [mode,setMode]=useState('schedule');
   const [attempt,setAttempt]=useState(0);
-  const [result,setResult]=useState({mode:null});
+  const [result,setResult]=useState({attempt:null});
   const [status,setStatus]=useState('');
   const [sharing,setSharing]=useState(false);
   const captureRef=useRef(null); const closeRef=useRef(null);
-  const ready=result.mode===mode && result.attempt===attempt;
+  const ready=result.attempt===attempt;
   const file=ready ? result.file : null;
   let canShare=false;
   try {canShare=Boolean(file && navigator.share && navigator.canShare?.({files:[file]}));}catch{/* Download remains available. */}
@@ -48,16 +51,16 @@ export default function PlanShare({data, selections, selectedWorkshops, onClose,
       const blob=await new Promise(resolve=>canvas.toBlob(resolve,'image/png'));
       if(!blob)throw Error('Image creation failed');
       if(cancelled)return;
-      const imageFile=new File([blob],mode==='schedule'?'Term6_Timetable.png':'Term6_Course_Summary.png',{type:'image/png'});
+      const imageFile=new File([blob],'Term6_Timetable.png',{type:'image/png'});
       url=URL.createObjectURL(imageFile);
-      setResult({mode,attempt,file:imageFile,url});
-    }catch{if(!cancelled)setResult({mode,attempt,error:'Could not create the image. Retry or download the text plan.'});}}
+      setResult({attempt,file:imageFile,url});
+    }catch{if(!cancelled)setResult({attempt,error:'Could not create the image. Retry or download the text plan.'});}}
     prepare();return()=>{cancelled=true;if(url)URL.revokeObjectURL(url);};
-  },[mode,attempt,selections,selectedWorkshops]);
+  },[attempt,selections,selectedWorkshops]);
   async function share(){if(!file || !canShare || sharing)return;setSharing(true);try{
     // The image is prepared before this click, preserving user activation.
     await navigator.share({files:[file],title:'My Term 6 plan'});
     setStatus('Share menu opened.');
   }catch(error){setStatus(error.name==='AbortError'?'Sharing cancelled.':'Sharing failed. Download the image and send it from your app.');}finally{setSharing(false);}}
-  return <><div className="modal-backdrop" onClick={onClose}><section className="modal share-modal" role="dialog" aria-modal="true" aria-labelledby="share-title" onClick={e=>e.stopPropagation()}><header><div><h2 id="share-title">Share or download your plan</h2><p>A clean image of your selected courses, ready to send.</p></div><button className="icon-button" ref={closeRef} onClick={onClose} aria-label="Close sharing">×</button></header><div className="modal-body"><div className="tabs share-modes">{[['schedule','Timetable image'],['details','Course summary image']].map(([value,label])=><button key={value} className={mode===value?'active':''} aria-pressed={mode===value} onClick={()=>{setMode(value);setStatus('');}}>{label}</button>)}</div><div className="share-actions"><button disabled={!file} onClick={()=>{saveFile(file);setStatus('Image download started.');}}>Download PNG</button>{canShare && <button disabled={sharing} onClick={share}>{sharing?'Sharing…':'Share image'}</button>}<button onClick={onDownloadText}>Download text plan</button></div><p className="share-status" role="status" aria-live="polite">{!ready?'Preparing image…':result.error||status||'Your image is ready.'}</p>{ready && result.error && <button onClick={()=>setAttempt(n=>n+1)}>Retry image</button>}{file && !canShare && <p className="share-help">Download the image, then attach it in WhatsApp, email or another app.</p>}{file && <img className="share-preview" src={result.url} alt={mode==='schedule'?'Preview of your selected Term 6 timetable':'Preview of your selected course summaries and assessments'}/>}</div></section></div><div className="share-capture" aria-hidden="true"><PlanSheet data={data} selections={selections} selectedWorkshops={selectedWorkshops} mode={mode} captureRef={captureRef}/></div></>;
+  return <><div className="modal-backdrop" onClick={onClose}><section className="modal share-modal" role="dialog" aria-modal="true" aria-labelledby="share-title" onClick={e=>e.stopPropagation()}><header><div><h2 id="share-title">Share or download your timetable</h2><p>A clean image of your selected courses, ready to send.</p></div><button className="icon-button" ref={closeRef} onClick={onClose} aria-label="Close sharing">×</button></header><div className="modal-body"><div className="share-actions"><button disabled={!file} onClick={()=>{saveFile(file);setStatus('Image download started.');}}>Download PNG</button>{canShare && <button disabled={sharing} onClick={share}>{sharing?'Sharing…':'Share image'}</button>}<button onClick={onDownloadText}>Download text plan</button></div><p className="share-status" role="status" aria-live="polite">{!ready?'Preparing image…':result.error||status||'Your image is ready.'}</p>{ready && result.error && <button onClick={()=>setAttempt(n=>n+1)}>Retry image</button>}{file && !canShare && <p className="share-help">Download the image, then attach it in WhatsApp, email or another app.</p>}{file && <img className="share-preview" src={result.url} alt="Preview of your Term 6 timetable, coloured by course area"/>}</div></section></div><div className="share-capture" aria-hidden="true"><PlanSheet data={data} selections={selections} selectedWorkshops={selectedWorkshops} captureRef={captureRef}/></div></>;
 }

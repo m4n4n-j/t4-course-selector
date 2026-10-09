@@ -1,0 +1,86 @@
+{
+  "WS_5": {
+    "outlineFiles": [
+      "Old course outlines/LwC_PavanS_30Sep2025.pdf"
+    ],
+    "outlineStatus": "historical",
+    "issues": [
+      "Only the 2025 Leading with Creativity outline is supplied; current evaluation needs reconfirmation."
+    ]
+  },
+  "WS_6": {
+    "outlineFiles": [
+      "Old course outlines/BSM_SDas_1.5crd_2025-26.pdf"
+    ],
+    "outlineStatus": "historical",
+    "issues": [
+      "Only the 2025–26 outline is supplied. Current timetable anchors this workshop PGPEM; the older mastersheet says PGP. Confirm cross-programme access."
+    ]
+  },
+  "WS_7": {
+    "outlineFiles": [
+      "WORKSHOP/AIPSM_GShainesh_Mktg_1.5crd_2026-27.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": [
+      "Outline describes a five-day workshop, whereas the newer timetable schedules 7–9 December (three days). The selector uses the timetable dates; confirm the revised daily teaching allocation."
+    ]
+  },
+  "WS_8": {
+    "outlineFiles": [
+      "WORKSHOP/SII_SachidanandaBS_Entre_1.5crd_2026-27.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": [
+      "Outline reports an additional student fee of INR 2,225–4,450 depending on enrolment; confirm the final institute fee."
+    ]
+  },
+  "WS_9": {
+    "outlineFiles": [
+      "WORKSHOP/MDM_SreelathaJ_Mktg_3crd_2026-27.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": [
+      "Outline requires 100% attendance and a field visit; confirm local travel arrangements."
+    ]
+  },
+  "WS_10": {
+    "outlineFiles": [
+      "WORKSHOP/SportsAnalytics_DimitrisK_DS_1.5crd_2026-27.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": []
+  },
+  "WS_11": {
+    "outlineFiles": [
+      "WORKSHOP/Marcomms_S Moorthy_Mktg_1.5crd_2026-27.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": []
+  },
+  "WS_12": {
+    "outlineFiles": [
+      "WORKSHOP/DT_RajeevS,LakshmanS_1.5crd_2026-27.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": [
+      "Outline suggests 30 November–2 December; the newer timetable says 10–12 December. Older mastersheet anchor is PGP; newer timetable anchor is EPGP. Selector uses the newer timetable."
+    ]
+  },
+  "WS_14": {
+    "outlineFiles": [
+      "WORKSHOP/HMC_Indiahikes_Brahmatal Trek Student Copy 2026.pdf",
+      "WORKSHOP/HMC_Indiahikes_with course fee_Dec 2026.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": []
+  },
+  "WS_15": {
+    "outlineFiles": [
+      "WORKSHOP/HMC_Indiahikes_Brahmatal Trek Student Copy 2026.pdf",
+      "WORKSHOP/HMC_Indiahikes_with course fee_Dec 2026.pdf"
+    ],
+    "outlineStatus": "current",
+    "issues": []
+  }
+}

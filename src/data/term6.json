@@ -1,0 +1,4672 @@
+{
+  "term": "Term 6",
+  "period": "December 2026 – March 2027",
+  "version": "9 October 2026, 16:00",
+  "sourceWorkbook": "Consolidated TT_v9Oct2026_16.00.xlsx",
+  "masterWorkbook": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+  "slots": [
+    {
+      "index": 1,
+      "start": "08:00",
+      "end": "09:30"
+    },
+    {
+      "index": 2,
+      "start": "10:00",
+      "end": "11:30"
+    },
+    {
+      "index": 3,
+      "start": "11:45",
+      "end": "13:15"
+    },
+    {
+      "index": 4,
+      "start": "14:30",
+      "end": "16:00"
+    },
+    {
+      "index": 5,
+      "start": "16:15",
+      "end": "17:45"
+    },
+    {
+      "index": 6,
+      "start": "18:00",
+      "end": "19:30"
+    }
+  ],
+  "courses": [
+    {
+      "name": "AI and Entrepreneurial Management",
+      "faculty": "Ramya K Murthy",
+      "area": "Entre",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/AI&EM_Ramya Murthy_Entre_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/AI&EM_Ramya Murthy_Entre_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 10,
+          "name": "AI and Entrepreneurial Management*",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Ramya K Murthy",
+          "area": "Entre",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 20,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "AI-native venture opportunities and business models",
+        "Entrepreneurial judgment and management under rapid change"
+      ],
+      "gradingBreakdown": {
+        "Group project (includes peer evaluation)": "30%",
+        "Class participation": "10%",
+        "Quiz 1": "15%",
+        "Quiz 2": "15%",
+        "Final exam": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "AIEM",
+      "shortName": "AIEM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "AIEM_PGP_FS_FULL_3",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Sat",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D31",
+              "sourceText": "AIEM (12)",
+              "parentheticalValue": 12
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D36",
+              "sourceText": "AIEM (12)",
+              "parentheticalValue": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI Strategy",
+      "faculty": "Vijay Venkataraman",
+      "area": "Strat",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGPEM/AIS_Vijay V_Strat_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGPEM/AIS_Vijay V_Strat_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 50,
+          "name": "AI Strategy",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "Vijay Venkataraman",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": "seat allocation as indicated by faculty",
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "PG programmes. Mastersheet and timetable use PGPEM anchor; the outline header says anchored through PGP.",
+      "blockedProgrammes": [],
+      "issues": [
+        "Outline anchor is PGP, while current mastersheet and timetable agree on PGPEM. Confirm reused header and any faculty-directed seat allocation.",
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "AI economics and firm strategy",
+        "Job redesign, governance and societal challenges"
+      ],
+      "gradingBreakdown": {
+        "Quiz 1": "10%",
+        "Quiz 2": "10%",
+        "Class participation": "15%",
+        "Case analysis": "15%",
+        "Project": "25%",
+        "Final exam": "25%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "AIS",
+      "shortName": "AIS",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "AIS_PGPEM_FS_FULL_6",
+          "label": "PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            },
+            {
+              "day": "Sat",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 6,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "G32",
+              "sourceText": "AIS (32)",
+              "parentheticalValue": 32
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 6,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "G37",
+              "sourceText": "AIS (32)",
+              "parentheticalValue": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business to Business Marketing",
+      "faculty": "Mohan Kuruvilla",
+      "area": "Mktg",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/B2B_M Kuruvilla_Mktg_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "EPGP/B2B_M Kuruvilla_Mktg_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 26,
+          "name": "Business to Business Marketing",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "Mohan Kuruvilla",
+          "area": "MKtg",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: EPGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Timetable uses BBM; outline filename uses B2B. Matched to the unique Business to Business Marketing entry in the mastersheet; confirm abbreviation.",
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Organizational buying and buyer–seller relationships",
+        "Value propositions and B2B marketing strategies"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "20%",
+        "Quizzes": "30%",
+        "Group presentation": "20%",
+        "End-term exam": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "BBM",
+      "shortName": "BBM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "BBM_EPGP_MT_FULL_3",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Tue",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D5",
+              "sourceText": "BBM (3)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D11",
+              "sourceText": "BBM (3)",
+              "parentheticalValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business Government and Society",
+      "faculty": "M S Sriram",
+      "area": "PP",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/BGS_Sriram MS_PP_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "EPGP/BGS_Sriram MS_PP_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 42,
+          "name": "Business Government and Society",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "M S Sriram",
+          "area": "PP",
+          "grading": "Standard",
+          "comments": "Open to PGPEM and EPGP only",
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet explicitly states: open to PGPEM and EPGP only.",
+      "blockedProgrammes": [
+        "PGP",
+        "PGPBA"
+      ],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Interactions between business, government and society"
+      ],
+      "gradingBreakdown": {
+        "Three learning notes": "30%",
+        "Class participation": "10%",
+        "Team project": "30%",
+        "End-term case analysis": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "BGS",
+      "shortName": "BGS",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "BGS_EPGP_MT_FULL_4",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Tue",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 4,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "E6",
+              "sourceText": "BGS (0)",
+              "parentheticalValue": 0
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 4,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "E12",
+              "sourceText": "BGS (0)",
+              "parentheticalValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business Strategy and Competition Policy",
+      "faculty": "Gaurav Jakhu",
+      "area": "Econ",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/BSCP_Gaurav_J_3crds_Econ_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/BSCP_Gaurav_J_3crds_Econ_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 8,
+          "name": "Business Strategy and Competition Policy",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Gaurav Jakhu",
+          "area": "Econ",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Business strategies and antitrust concerns",
+        "Market power, mergers and competition authority assessment"
+      ],
+      "gradingBreakdown": {
+        "In-class quiz I": "5%",
+        "Outside-class quiz II": "20%",
+        "In-class quiz III": "5%",
+        "End-term exam": "50%",
+        "Antitrust expert project": "20%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "BSCP",
+      "shortName": "BSCP",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "BSCP_PGP_WT_FULL_3",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Thu",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D17",
+              "sourceText": "BSCP (14)",
+              "parentheticalValue": 14
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D23",
+              "sourceText": "BSCP (14)",
+              "parentheticalValue": 14
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Consumer Behaviour",
+      "faculty": "Gopal Das",
+      "area": "Mktg",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/CB_G Das_Mktg_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "EPGP/CB_G Das_Mktg_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 31,
+          "name": "Consumer Behaviour",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "Gopal Das",
+          "area": "MKtg",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: EPGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Consumer decision making and marketing behaviour"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "5%",
+        "Presentations and assignments": "15%",
+        "End term": "50%",
+        "Project": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "CB",
+      "shortName": "CB",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "CB_EPGP_FS_FULL_6",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            },
+            {
+              "day": "Sat",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 6,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "G29",
+              "sourceText": "CB (12)",
+              "parentheticalValue": 12
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 6,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "G34",
+              "sourceText": "CB (12)",
+              "parentheticalValue": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Commercial Bank Management",
+      "faculty": "M Jayadev",
+      "area": "F&A",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/CBM_JayadevM_F&A_3crds_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/CBM_JayadevM_F&A_3crds_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 13,
+          "name": "Commercial Bank Management",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "M Jayadev",
+          "area": "F&A",
+          "grading": "Standard",
+          "comments": "Mutually exclusive from the course MBFI by Prof. Ashok Thampy",
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. Mutually exclusive from the course MBFI by Prof. Ashok Thampy",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Bank liabilities, credit and investment management",
+        "Asset-liability management, risk and capital adequacy"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "10%",
+        "Assignments and presentations": "15%",
+        "Two quizzes": "30%",
+        "Final test": "45%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "CBM",
+      "shortName": "CBM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "CBM_PGP_FS_FULL_5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Sat",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F29",
+              "sourceText": "CBM (4)",
+              "parentheticalValue": 4
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F34",
+              "sourceText": "CBM (4)",
+              "parentheticalValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Doing Business with AI",
+      "faculty": "Shankar Venkatagiri",
+      "area": "IS",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/DBAI_Shankar V_IS_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "EPGP/DBAI_Shankar V_IS_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 24,
+          "name": "Doing Business With AI",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "Shankar Venkatagiri",
+          "area": "IS",
+          "grading": "Standard",
+          "comments": "not open to PGPBA",
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "EPGP, open to other PG programmes, explicitly excluding PGPBA.",
+      "blockedProgrammes": [
+        "PGPBA"
+      ],
+      "issues": [
+        "Timetable uses DBWAI; the outline and mastersheet use DBAI. Confirm these abbreviations identify the same offering.",
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Business applications and mechanisms of AI",
+        "Deep learning and business case analysis"
+      ],
+      "gradingBreakdown": {
+        "Final": "40%",
+        "Two quizzes": "30%",
+        "Class participation": "10%",
+        "Project": "20%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "DBWAI",
+      "shortName": "DBWAI",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "DBWAI_EPGP_MT_FULL_3",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Tue",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D6",
+              "sourceText": "DBWAI (6)",
+              "parentheticalValue": 6
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D12",
+              "sourceText": "DBWAI (6)",
+              "parentheticalValue": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Decision Making",
+      "faculty": "Kanchan Mukherjee",
+      "area": "OBHRM",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "Old course outlines/DM_KMukherjee_3crd_2025-26.pdf",
+      "outlineFiles": [
+        "Old course outlines/DM_KMukherjee_3crd_2025-26.pdf"
+      ],
+      "outlineStatus": "historical",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 36,
+          "name": "Decision Making",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Kanchan Mukherjee",
+          "area": "OBHRM",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Only a historical outline is supplied. Title, faculty, credits and grading type come from the current mastersheet; current evaluation and course content need reconfirmation."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "DM",
+      "shortName": "DM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "DM_PGP_MT_FULL_4",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Tue",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E5",
+              "sourceText": "DM (5)",
+              "parentheticalValue": 5
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E11",
+              "sourceText": "DM (5)",
+              "parentheticalValue": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Digital Marketing Strategies",
+      "faculty": "G Shainesh",
+      "area": "Mktg",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/DMS_GS3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/DMS_GS3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 27,
+          "name": "Digital Marketing Strategies",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "G Shainesh",
+          "area": "Mktg",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Digital business models, customer journeys and campaigns",
+        "Digital marketing simulation, search, display and shopping advertising"
+      ],
+      "gradingBreakdown": {
+        "Mid-term exam or quizzes": "35%",
+        "Case analysis submission / presentation": "20%",
+        "Group simulation and analysis": "30%",
+        "Class participation": "15%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "DMS",
+      "shortName": "DMS",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "DMS_PGP_WT_FULL_2",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Thu",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C18",
+              "sourceText": "DMS (20)",
+              "parentheticalValue": 20
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C24",
+              "sourceText": "DMS (20)",
+              "parentheticalValue": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Visualization and Storytelling",
+      "faculty": "Sharada Sringeswara",
+      "area": "DS",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/DVS_Sharada S_DS_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/DVS_Sharada S_DS_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 5,
+          "name": "Data Visualization and Story Telling",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Sharada Sringeswara",
+          "area": "DS",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Visualization design and storytelling with data",
+        "Tableau, dashboards and visual analytics"
+      ],
+      "gradingBreakdown": {
+        "End term": "25%",
+        "In-class group presentation": "30%",
+        "Assignment": "30%",
+        "In-class quizzes": "15%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "DVS",
+      "shortName": "DVS",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "DVS_PGP_FS_FULL_3",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Sat",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D29",
+              "sourceText": "DVS (19)",
+              "parentheticalValue": 19
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D34",
+              "sourceText": "DVS (19)",
+              "parentheticalValue": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exploring Architecture and Design: Lessons for Managers",
+      "faculty": "Kiran Keswani",
+      "area": "Interdis",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/EAD_KK_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/EAD_KK_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 16,
+          "name": "Explroing Architecture and Design: Lessongs for Managers",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Kiran Keswani",
+          "area": "InterD",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [
+        "Spelling corrected using the outline title."
+      ],
+      "outline": [],
+      "gradingBreakdown": {
+        "Group hands-on exercises": "30%",
+        "Individual reflective writing and exercises": "40%",
+        "Group end-term project": "20%",
+        "Individual end-term project": "10%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "EAD",
+      "shortName": "EAD",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "EAD_PGP_MT_FULL_4",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Tue",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E3",
+              "sourceText": "EAD (7)",
+              "parentheticalValue": 7
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E9",
+              "sourceText": "EAD (7)",
+              "parentheticalValue": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extreme Leadership",
+      "faculty": "V N Bhattacharya",
+      "area": "OBHRM",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGPEM/EL_VNBhattacharya_OBHRM_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGPEM/EL_VNBhattacharya_OBHRM_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 37,
+          "name": "Extreme Leadership",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "V N Bhattacharya",
+          "area": "OBHRM",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGPEM. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Leadership through explorers, mountaineers and business leaders",
+        "Leadership in extreme circumstances"
+      ],
+      "gradingBreakdown": {
+        "Attendance": "10%",
+        "Surprise quizzes (best of two)": "15%",
+        "End-term examination": "40%",
+        "Group dissertation": "35%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "EL",
+      "shortName": "EL",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "EL_PGPEM_FS_FULL_4",
+          "label": "PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Sat",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 4,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "E32",
+              "sourceText": "EL (49)",
+              "parentheticalValue": 49
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 4,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "E37",
+              "sourceText": "EL (49)",
+              "parentheticalValue": 49
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enlightend Leadership for Responsible Business",
+      "faculty": "Abhoy K Ojha",
+      "area": "OBHRM",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGPEM/ELRB_Abhoy_OBHRM_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGPEM/ELRB_Abhoy_OBHRM_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 34,
+          "name": "Enlightend Leadership for Responsible Business",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "Abhoy K Ojha",
+          "area": "OBHRM",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGPEM. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Responsible business and sustainable high performance",
+        "Organizational initiatives and responsible leadership"
+      ],
+      "gradingBreakdown": {
+        "Class participation (including group case discussion)": "10%",
+        "Two announced quizzes": "20%",
+        "Group presentation and report": "30%",
+        "Final examination": "40%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "ELRB",
+      "shortName": "ELRB",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "ELRB_PGPEM_FS_FULL_5",
+          "label": "PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Sat",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 5,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "F31",
+              "sourceText": "ELRB (18)",
+              "parentheticalValue": 18
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 5,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "F36",
+              "sourceText": "ELRB (18)",
+              "parentheticalValue": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entrepreneurial Marketing",
+      "faculty": "Ludvig Levasseur",
+      "area": "Entre",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/EM_Ludvig_Entre_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/EM_Ludvig_Entre_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 9,
+          "name": "Entrepreneurial Marketing",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Ludvig Levassueur",
+          "area": "Entre",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "PG students. Current mastersheet confirms PGP anchor for Term 6; outline header labels EPGP Term 5 for the same December–March period.",
+      "blockedProgrammes": [],
+      "issues": [
+        "Outline says EPGP Term 5; mastersheet and timetable both anchor this course in PGP. Confirm the header is reused for the shared course."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Marketing for entrepreneurial ventures",
+        "Feasibility, desirability and marketing plans"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "25%",
+        "Exam": "25%",
+        "Group project": "50%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "EM",
+      "shortName": "EM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "EM_PGP_WT_FULL_2",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Thu",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C16",
+              "sourceText": "EM (22)",
+              "parentheticalValue": 22
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C22",
+              "sourceText": "EM (22)",
+              "parentheticalValue": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education Policy: Concepts and Praxis",
+      "faculty": "Soham Sahoo",
+      "area": "PP",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/EPCP_Soham Sahoo_PP_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/EPCP_Soham Sahoo_PP_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 41,
+          "name": "Education Policy: Concepts and Praxis",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Soham Sahoo",
+          "area": "PP",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Education policy concepts and evidence",
+        "Indian education organizations and policy practice"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "10%",
+        "In-class quizzes": "20%",
+        "End-term exam": "40%",
+        "Group presentations": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "EPCP",
+      "shortName": "EPCP",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "EPCP_PGP_MT_FULL_5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Tue",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F4",
+              "sourceText": "EPCP (9)",
+              "parentheticalValue": 9
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F10",
+              "sourceText": "EPCP (9)",
+              "parentheticalValue": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Financial & Monetary Ecosystem: Central Banking, Policy, and Systemic Risk",
+      "faculty": "Balu Kenchappa",
+      "area": "PP",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/FME_BaluK_PP_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/FME_BaluK_PP_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 44,
+          "name": "Financial & Monetary Ecosystem: Central Banking, Policy, and Systemic Risk*",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Balu Kenchappa",
+          "area": "PP",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Central banking, monetary policy and financial stability"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "15%",
+        "Group work, assignments and case studies": "35%",
+        "End-term assessment": "50%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "FME",
+      "shortName": "FME",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "FME_PGP_FS_FULL_4",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Sat",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E29",
+              "sourceText": "FME (16)",
+              "parentheticalValue": 16
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E34",
+              "sourceText": "FME (16)",
+              "parentheticalValue": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General Commercial Knowledge-1",
+      "faculty": "Shanker Subramoney",
+      "area": "Interdis",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/GCK_Shanker S_InterD_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "EPGP/GCK_Shanker S_InterD_3crd_2026-27.pdf",
+        "PGPEM/GCK_Shanker S_InterD_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 19,
+          "name": "General Commercial Knowledge-1",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "Shanker Subramoney",
+          "area": "InterD",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        },
+        {
+          "row": 20,
+          "name": "General Commercial Knowledge -2",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "Shanker Subramoney",
+          "area": "InterD",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: EPGP, PGPEM. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [
+        "Mastersheet rows 19 and 20 confirm the same professor for GCK-1 and GCK-2. Identical PDFs occur in the EPGP and PGPEM folders."
+      ],
+      "outline": [
+        "Commercial contracts and contractual risk",
+        "GST, consumer protection, Incoterms, arbitration, insurance and tenders"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "10%",
+        "Group activity": "25%",
+        "Two surprise in-class quizzes": "25%",
+        "End term": "40%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {
+        "EPGP": {
+          "label": "GCK-1 · EPGP"
+        },
+        "PGPEM": {
+          "label": "GCK-2 · PGPEM"
+        }
+      },
+      "id": "GCK",
+      "shortName": "GCK",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "GCK_PGPEM_FS_FULL_6",
+          "label": "GCK-2 · PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            },
+            {
+              "day": "Sat",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 6,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "G30",
+              "sourceText": "GCK (23)",
+              "parentheticalValue": 23
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 6,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "G35",
+              "sourceText": "GCK (23)",
+              "parentheticalValue": 23
+            }
+          ]
+        },
+        {
+          "id": "GCK_EPGP_FS_FULL_2",
+          "label": "GCK-1 · EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Sat",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 2,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "C31",
+              "sourceText": "GCK (2)",
+              "parentheticalValue": 2
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 2,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "C36",
+              "sourceText": "GCK (2)",
+              "parentheticalValue": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Marketing",
+      "faculty": "Malika",
+      "area": "Mktg",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "Old course outlines/GM-Malika_3crd_Mkt_Sept2025.pdf",
+      "outlineFiles": [
+        "Old course outlines/GM-Malika_3crd_Mkt_Sept2025.pdf"
+      ],
+      "outlineStatus": "historical",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 28,
+          "name": "Global Marketing",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Malika",
+          "area": "Mktg",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Only a historical outline is supplied. Title, faculty, credits and grading type come from the current mastersheet; current evaluation and course content need reconfirmation."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "GM",
+      "shortName": "GM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "GM_PGP_MT_FULL_2",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Tue",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C5",
+              "sourceText": "GM (17)",
+              "parentheticalValue": 17
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C11",
+              "sourceText": "GM (17)",
+              "parentheticalValue": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Investment Banking",
+      "faculty": "Srijith Mohanan",
+      "area": "F&A",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/IB_Srijith M_F&A_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/IB_Srijith M_F&A_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 12,
+          "name": "Investment Banking",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Srijith Mohanan",
+          "area": "F&A",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Investment bank functions and deal structuring",
+        "Capital markets, M&A, private equity and corporate strategy"
+      ],
+      "gradingBreakdown": {
+        "Group project": "35%",
+        "Classroom presentation": "10%",
+        "In-class quizzes (best five of eight)": "20%",
+        "End-term exam": "35%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "IB",
+      "shortName": "IB",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "IB_PGP_WT_FULL_4-5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Thu",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Thu",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Thu",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E22",
+              "sourceText": "IB (19)",
+              "parentheticalValue": 19
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F22",
+              "sourceText": "IB (19)",
+              "parentheticalValue": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inclusive Banking and Fintechs",
+      "faculty": "M S Sriram",
+      "area": "PP",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/IBF_Sriram MS_PP_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/IBF_Sriram MS_PP_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 43,
+          "name": "Inclusive Banking and Fintechs",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "M S Sriram",
+          "area": "PP",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Financial inclusion models and institutional architecture",
+        "Inclusive banking and fintech"
+      ],
+      "gradingBreakdown": {
+        "Mid-term case analysis": "25%",
+        "End-term case analysis": "25%",
+        "Group presentation": "15%",
+        "Term paper": "25%",
+        "Class participation": "10%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "IBF",
+      "shortName": "IBF",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "IBF_PGP_MT_FULL_5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Tue",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F5",
+              "sourceText": "IBF (12)",
+              "parentheticalValue": 12
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F11",
+              "sourceText": "IBF (12)",
+              "parentheticalValue": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Hindu Philosophy (Pre)",
+      "faculty": "Trilochan Sastry",
+      "area": "Interdis",
+      "credits": 1.5,
+      "grading": "Standard",
+      "outlineFile": "Old course outlines/IHP 2025-26.pdf",
+      "outlineFiles": [
+        "Old course outlines/IHP 2025-26.pdf"
+      ],
+      "outlineStatus": "historical",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 17,
+          "name": "Introduction to Hindu Philosophy (Pre)",
+          "credits": 1.5,
+          "anchor": "PGP",
+          "faculty": "Trilochan Sastry",
+          "area": "InterD",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Only a historical outline is supplied. Title, faculty, credits and grading type come from the current mastersheet; current evaluation and course content need reconfirmation.",
+        "PRE/POST dates are unspecified. Clashes are checked conservatively until exact date ranges are provided."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "IHP",
+      "shortName": "IHP",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "IHP_PGP_MT_PRE_2",
+          "label": "PGP (PRE)",
+          "anchor": "PGP",
+          "phase": "PRE",
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Tue",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": "PRE",
+              "sourceCell": "C3",
+              "sourceText": "IHP (PRE)",
+              "parentheticalValue": null
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": "PRE",
+              "sourceCell": "C9",
+              "sourceText": "IHP (16) (PRE)",
+              "parentheticalValue": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "International Macroeconomics",
+      "faculty": "Chetan Subramanian",
+      "area": "Econ",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGPEM/IM_ChethanS_Econ_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGPEM/IM_ChethanS_Econ_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 7,
+          "name": "International Macroeconomics",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "Chetan Subramanian",
+          "area": "Econ",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGPEM. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "International finance and open-economy macroeconomics",
+        "Capital flows, exchange rates and sovereign crises"
+      ],
+      "gradingBreakdown": {
+        "Mid term": "35%",
+        "Group presentation": "15%",
+        "Final": "50%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "IM",
+      "shortName": "IM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "IM_PGPEM_FS_FULL_4",
+          "label": "PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Sat",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 4,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "E30",
+              "sourceText": "IM (149)",
+              "parentheticalValue": 149
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 4,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "E35",
+              "sourceText": "IM (149)",
+              "parentheticalValue": 149
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intercultural Managerial Communication (Pre)",
+      "faculty": "Jugal Choudhary",
+      "area": "Mcomm",
+      "credits": 1.5,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/IMC_JugalC_ManCom_1.5crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/IMC_JugalC_ManCom_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 25,
+          "name": "Intercultural Managerial Communication (Pre)",
+          "credits": 1.5,
+          "anchor": "PGP",
+          "faculty": "Jugal Choudhary",
+          "area": "Man Com",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 40
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "PRE/POST dates are unspecified. Clashes are checked conservatively until exact date ranges are provided."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {
+        "In-class exercise (individual)": "10 marks",
+        "In-class quizzes (individual)": "15 marks",
+        "Assignment (group)": "25 marks"
+      },
+      "evaluationNote": "The outline table totals 50 marks (10 + 15 + 25). Values are preserved as marks, not treated as percentages.",
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "IMC",
+      "shortName": "IMC",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "IMC_PGP_MT_PRE_3",
+          "label": "PGP (PRE)",
+          "anchor": "PGP",
+          "phase": "PRE",
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Tue",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": "PRE",
+              "sourceCell": "D4",
+              "sourceText": "IMC (8) (PRE)",
+              "parentheticalValue": 8
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": "PRE",
+              "sourceCell": "D10",
+              "sourceText": "IMC (8) (PRE)",
+              "parentheticalValue": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Introduction to World Religions (Post)",
+      "faculty": "Trilochan Sastry",
+      "area": "Interdis",
+      "credits": 1.5,
+      "grading": "Standard",
+      "outlineFile": "Old course outlines/IWR 2025-26.pdf",
+      "outlineFiles": [
+        "Old course outlines/IWR 2025-26.pdf"
+      ],
+      "outlineStatus": "historical",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 18,
+          "name": "Introduction to World Religions (Post)",
+          "credits": 1.5,
+          "anchor": "PGP",
+          "faculty": "Trilochan Sastry",
+          "area": "InterD",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Only a historical outline is supplied. Title, faculty, credits and grading type come from the current mastersheet; current evaluation and course content need reconfirmation.",
+        "PRE/POST dates are unspecified. Clashes are checked conservatively until exact date ranges are provided."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "IWR",
+      "shortName": "IWR",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "IWR_PGP_MT_POST_2",
+          "label": "PGP (POST)",
+          "anchor": "PGP",
+          "phase": "POST",
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Tue",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": "POST",
+              "sourceCell": "C4",
+              "sourceText": "IWR (POST)",
+              "parentheticalValue": null
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": "POST",
+              "sourceCell": "C10",
+              "sourceText": "IWR (12) (POST)",
+              "parentheticalValue": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning from Corporate Failures (Post)",
+      "faculty": "Jose PD",
+      "area": "Strat",
+      "credits": 1.5,
+      "grading": "Standard",
+      "outlineFile": "Old course outlines/LCF 2024-26.pdf",
+      "outlineFiles": [
+        "Old course outlines/LCF 2024-26.pdf"
+      ],
+      "outlineStatus": "historical",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 45,
+          "name": "Learning from Corporate Failures (Post)",
+          "credits": 1.5,
+          "anchor": "PGP",
+          "faculty": "Jose PD",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Only a historical outline is supplied. Title, faculty, credits and grading type come from the current mastersheet; current evaluation and course content need reconfirmation.",
+        "PRE/POST dates are unspecified. Clashes are checked conservatively until exact date ranges are provided."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "LCF",
+      "shortName": "LCF",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "LCF_PGP_WT_POST_1",
+          "label": "PGP (POST)",
+          "anchor": "PGP",
+          "phase": "POST",
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 1,
+              "start": "08:00",
+              "end": "09:30"
+            },
+            {
+              "day": "Thu",
+              "index": 1,
+              "start": "08:00",
+              "end": "09:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 1,
+              "anchor": "PGP",
+              "phase": "POST",
+              "sourceCell": "B17",
+              "sourceText": "LCF (3) (POST)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 1,
+              "anchor": "PGP",
+              "phase": "POST",
+              "sourceCell": "B23",
+              "sourceText": "LCF (3) (POST)",
+              "parentheticalValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leadership and Excellence in Technology Businesses",
+      "faculty": "Prarthan Desai",
+      "area": "OBHRM",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/LETB_Prarthan Desai_3crds_OBHRM_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/LETB_Prarthan Desai_3crds_OBHRM_2026-27.pdf",
+        "PGP PGPBA/LETB_PrarthanB_OBHRM_3crd-2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 38,
+          "name": "Leadership and Excellence in Technology Businesses*",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Prarthan Desai",
+          "area": "OBHRM",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 20,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [
+        "Two supplied versions have the same title, faculty, credit and evaluation weights. Both retained as sources."
+      ],
+      "outline": [],
+      "gradingBreakdown": {
+        "Class participation": "10%",
+        "Quiz": "10%",
+        "Group assignments": "40%",
+        "End-term exam": "40%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "LETB",
+      "shortName": "LETB",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "LETB_PGP_FS_FULL_5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Sat",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F30",
+              "sourceText": "LETB (3)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F35",
+              "sourceText": "LETB (3)",
+              "parentheticalValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing Analytics",
+      "faculty": "Nalini Guhesh",
+      "area": "Mktg",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/MA_Nalini G_Mktg_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "EPGP/MA_Nalini G_Mktg_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 32,
+          "name": "Marketing Analytics",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "Nalini Guhesh",
+          "area": "Mktg",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: EPGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Marketing data and analytical methods",
+        "Applying analytics to customer and marketing decisions"
+      ],
+      "gradingBreakdown": {
+        "End-term exam": "60%",
+        "In-class work": "10%",
+        "Group project": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "MA",
+      "shortName": "MA",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "MA_EPGP_WT_FULL_3",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Thu",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D20",
+              "sourceText": "MA (3)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D26",
+              "sourceText": "MA (3)",
+              "parentheticalValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marketing  Communications",
+      "faculty": "Sambasivan Moorthy",
+      "area": "Mktg",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/MC_S Moorthy_Mktg_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/MC_S Moorthy_Mktg_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 33,
+          "name": "Marketing  Communications",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Sambasivan Moorthy",
+          "area": "Mktg",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Outline header says Term 5. Current mastersheet and timetable identify this course in the Term 6 offering set. Confirm the header is reused."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Brand communications and integrated marketing",
+        "Agency/client collaboration and campaign design"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "20%",
+        "Assignments": "20%",
+        "End-term exam": "20%",
+        "In-class work": "20%",
+        "Project": "20%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "MC",
+      "shortName": "MC",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "MC_PGP_MT_FULL_2",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Tue",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C6",
+              "sourceText": "MC (9)",
+              "parentheticalValue": 9
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C12",
+              "sourceText": "MC (9)",
+              "parentheticalValue": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Managing Career Success & Transition",
+      "faculty": "Gopal Mahapatra",
+      "area": "OBHRM",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/MCST_GopalM_3crds_OBHRM_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/MCST_GopalM_3crds_OBHRM_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 35,
+          "name": "Managing Career Success & Transition",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Gopal Mahapatra",
+          "area": "OBHRM",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Career transition, strengths and reflective practice"
+      ],
+      "gradingBreakdown": {
+        "Reflection exercise I": "10%",
+        "Reflected best self exercise": "20%",
+        "Two quizzes": "40%",
+        "End-term examination": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "MCST",
+      "shortName": "MCST",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "MCST_PGP_MT_FULL_3",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Tue",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D3",
+              "sourceText": "MCST (7)",
+              "parentheticalValue": 7
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D9",
+              "sourceText": "MCST (7)",
+              "parentheticalValue": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Enterprise Financing",
+      "faculty": "G Sabarinathan",
+      "area": "F&A",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/NEF_G Sabarinathan_F&A_3crds_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/NEF_G Sabarinathan_F&A_3crds_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 11,
+          "name": "New Enterprise Financing",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "G Sabarinathan",
+          "area": "F&A",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Financing early-stage and growth-stage enterprises",
+        "Venture financing cases and financing strategy"
+      ],
+      "gradingBreakdown": {
+        "Quiz": "20%",
+        "Case submission": "20%",
+        "End term": "40%",
+        "Project": "20%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "NEF",
+      "shortName": "NEF",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "NEF_PGP_MT_FULL_5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Tue",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F3",
+              "sourceText": "NEF (7)",
+              "parentheticalValue": 7
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F9",
+              "sourceText": "NEF (7)",
+              "parentheticalValue": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Platform Business Models",
+      "faculty": "R Srinivasan",
+      "area": "Strat",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/PBM_RSrinivasan_Strat_3crd_2026.pdf",
+      "outlineFiles": [
+        "EPGP/PBM_RSrinivasan_Strat_3crd_2026.pdf"
+      ],
+      "outlineStatus": "historical",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 46,
+          "name": "Platform Business Models",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "R Srinivasan",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": "not open to PGPEM",
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Mastersheet excludes PGPEM; supplied outline header lists EPGP/PGP/PGPBA.",
+      "blockedProgrammes": [
+        "PGPEM"
+      ],
+      "issues": [
+        "Although the filename says 2026, the outline body says 2025–26. Current evaluation is not imported from it.",
+        "Only a historical outline is supplied. Title, faculty, credits and grading type come from the current mastersheet; current evaluation and course content need reconfirmation.",
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "PBM",
+      "shortName": "PBM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "PBM_EPGP_WT_FULL_4-5",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Thu",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Thu",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Thu",
+              "slotIndex": 4,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "E25",
+              "sourceText": "PBM (15)",
+              "parentheticalValue": 15
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 5,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "F25",
+              "sourceText": "PBM (15)",
+              "parentheticalValue": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Project Management",
+      "faculty": "G Anand Anandalingam",
+      "area": "POM",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGPEM/PM_Anandalingam_POM_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGPEM/PM_Anandalingam_POM_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 39,
+          "name": "Project Management",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "G Anand Anandalingam",
+          "area": "POM",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGPEM. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Project selection, planning and risk",
+        "Scheduling, resources and project execution"
+      ],
+      "gradingBreakdown": {
+        "Project planning exercise": "20%",
+        "Four case write-ups": "40%",
+        "Three in-class exams": "30%",
+        "Class participation": "10%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "PM",
+      "shortName": "PM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "PM_PGPEM_FS_FULL_5",
+          "label": "PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Sat",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 5,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "F32",
+              "sourceText": "PM (22)",
+              "parentheticalValue": 22
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 5,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "F37",
+              "sourceText": "PM (22)",
+              "parentheticalValue": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Responsible Artificial Intelligence",
+      "faculty": "Rajesh Natarajan V",
+      "area": "IS",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/Res AI_RajeshN_IS_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/Res AI_RajeshN_IS_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 23,
+          "name": "Responsible Artificial Intelligence",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Rajesh Natarajan V",
+          "area": "IS",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "AI bias, accountability and responsible deployment",
+        "AI governance and real-world ethical consequences"
+      ],
+      "gradingBreakdown": {
+        "Quizzes (3/4)": "45%",
+        "Attendance and class participation": "10%",
+        "Group project / term paper and presentation": "35%",
+        "Individual assignment": "10%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "RAI",
+      "shortName": "RAI",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "RAI_PGP_MT_FULL_4",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Tue",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E4",
+              "sourceText": "RAI (8)",
+              "parentheticalValue": 8
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E10",
+              "sourceText": "RAI (8)",
+              "parentheticalValue": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research for Marketing Decisions",
+      "faculty": "Gopal Das / Mayank Nagpal (slot allocation unconfirmed)",
+      "area": "Mktg",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/RMD_G Das_Mktg_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/RMD_G Das_Mktg_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 29,
+          "name": "Research for Marketing Decisions",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "Mayank Nagpal",
+          "area": "Mktg",
+          "grading": "Standard",
+          "comments": "Mutually exclusive from the RMD course offered by Prof. Das",
+          "minSeats": 25,
+          "maxSeats": 75
+        },
+        {
+          "row": 30,
+          "name": "Research for Marketing Decisions",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Gopal Das",
+          "area": "MKtg",
+          "grading": "Standard",
+          "comments": "Mutually exclusive from the RMD course offered by Prof. Mayank",
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: EPGP, PGP. Mutually exclusive from the RMD course offered by Prof. Das Mutually exclusive from the RMD course offered by Prof. Mayank",
+      "blockedProgrammes": [],
+      "issues": [
+        "Mastersheet lists Gopal Das (PGP) and Mayank Nagpal (EPGP), mutually exclusive. Both timetable offerings are coloured PGP. Confirm faculty-to-slot allocation and supply the Mayank Nagpal outline.",
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": "Gopal Das outline is supplied; Mayank Nagpal outline is missing. Neither timetable slot is assigned a professor or evaluation scheme without confirmation.",
+      "sectionMetadata": {},
+      "id": "RMD",
+      "shortName": "RMD",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "RMD_EPGP_WT_FULL_4-5",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Thu",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Thu",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Thu",
+              "slotIndex": 4,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "E26",
+              "sourceText": "RMD (3)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 5,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "F26",
+              "sourceText": "RMD (3)",
+              "parentheticalValue": 3
+            }
+          ]
+        },
+        {
+          "id": "RMD_PGP_FS_FULL_3",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Sat",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D30",
+              "sourceText": "RMD (9)",
+              "parentheticalValue": 9
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D35",
+              "sourceText": "RMD (9)",
+              "parentheticalValue": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Service Delivery and Management",
+      "faculty": "Maya Ganesh",
+      "area": "POM",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/SDM_MayaG_POM_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/SDM_MayaG_POM_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 40,
+          "name": "Service Delivery and Management",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Maya Ganesh",
+          "area": "POM",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [
+        "Blank PDF title resolved from current mastersheet row 40, matching acronym and Maya Ganesh."
+      ],
+      "outline": [
+        "Fundamentals of services and service strategy",
+        "Service design, development and service operations"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "15%",
+        "Group project presentation and report": "40%",
+        "End-term test": "45%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "SDM",
+      "shortName": "SDM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "SDM_PGP_WT_FULL_1",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 1,
+              "start": "08:00",
+              "end": "09:30"
+            },
+            {
+              "day": "Thu",
+              "index": 1,
+              "start": "08:00",
+              "end": "09:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 1,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "B16",
+              "sourceText": "SDM (3)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 1,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "B22",
+              "sourceText": "SDM (3)",
+              "parentheticalValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports Entrepreneurship and Innovation in the Indian Ecosystem",
+      "faculty": "Sachidananda Benegal",
+      "area": "Entre",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/SEIIE_SBS_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/SEIIE_SBS_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [],
+      "eligibilityText": "Outline states PG programmes and PGP Term 6.",
+      "blockedProgrammes": [],
+      "issues": [
+        "Timetable SEII is mapped to SEIIE outline by title and context. This course is absent from the older 18 September mastersheet; confirm the abbreviation."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Sports ventures and the Indian sports ecosystem",
+        "Entrepreneurship and innovation in sports"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "20%",
+        "End term": "45%",
+        "Project": "35%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "SEII",
+      "shortName": "SEII",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "SEII_PGP_MT_FULL_5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Mon",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            },
+            {
+              "day": "Tue",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Mon",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F6",
+              "sourceText": "SEII (6)",
+              "parentheticalValue": 6
+            },
+            {
+              "day": "Tue",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F12",
+              "sourceText": "SEII (6)",
+              "parentheticalValue": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strategic Leadership-1",
+      "faculty": "Shubha Patvardhan",
+      "area": "Strat",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/SL_SPatvardhan_Strat_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/SL_SPatvardhan_Strat_3crd_2026-27.pdf",
+        "PGPEM/SL-Patvardhan-STR-3crd-2026-27 PGPEM EPGP.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 48,
+          "name": "Strategic Leadership-1",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Shubha Patvardhan",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        },
+        {
+          "row": 49,
+          "name": "Strategic Leadership-2",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "Shubha Patvardhan",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP, PGPEM. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [
+        "Current mastersheet confirms the same professor for SL-1 and SL-2. Programme-specific outlines are retained separately."
+      ],
+      "outline": [
+        "Strategic judgment under uncertainty",
+        "Trade-offs, foresight and organizational agency"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "30%",
+        "Term project": "35%",
+        "Reflective assessment": "35%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {
+        "PGP": {
+          "label": "SL-1 · PGP",
+          "outlineFiles": [
+            "PGP PGPBA/SL_SPatvardhan_Strat_3crd_2026-27.pdf"
+          ],
+          "eligibilityText": "This version explicitly lists PGP."
+        },
+        "PGPEM": {
+          "label": "SL-2 · PGPEM",
+          "outlineFiles": [
+            "PGPEM/SL-Patvardhan-STR-3crd-2026-27 PGPEM EPGP.pdf"
+          ],
+          "eligibilityText": "This version explicitly lists PGPEM/EPGP; PGP access to SL-2 requires confirmation."
+        }
+      },
+      "id": "SL",
+      "shortName": "SL",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "SL_PGP_WT_FULL_3",
+          "label": "SL-1 · PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Thu",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D18",
+              "sourceText": "SL (12)",
+              "parentheticalValue": 12
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D24",
+              "sourceText": "SL (12)",
+              "parentheticalValue": 12
+            }
+          ],
+          "outlineFiles": [
+            "PGP PGPBA/SL_SPatvardhan_Strat_3crd_2026-27.pdf"
+          ],
+          "eligibilityText": "This version explicitly lists PGP."
+        },
+        {
+          "id": "SL_PGPEM_FS_FULL_6",
+          "label": "SL-2 · PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            },
+            {
+              "day": "Sat",
+              "index": 6,
+              "start": "18:00",
+              "end": "19:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 6,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "G31",
+              "sourceText": "SL (30)",
+              "parentheticalValue": 30
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 6,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "G36",
+              "sourceText": "SL (30)",
+              "parentheticalValue": 30
+            }
+          ],
+          "outlineFiles": [
+            "PGPEM/SL-Patvardhan-STR-3crd-2026-27 PGPEM EPGP.pdf"
+          ],
+          "eligibilityText": "This version explicitly lists PGPEM/EPGP; PGP access to SL-2 requires confirmation."
+        }
+      ]
+    },
+    {
+      "name": "Spreadsheet Modeling for Business Decision Problems",
+      "faculty": "Reshma Chandrasekharan",
+      "area": "DS",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/SMBDP_ReshmaC_DS_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/SMBDP_ReshmaC_DS_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 4,
+          "name": "Spreadsheet Models for Business Decisions",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Reshma Chandrashekaran",
+          "area": "DS",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [
+        "Timetable SMBD maps to SMBDP filename and mastersheet Spreadsheet Models for Business Decisions."
+      ],
+      "outline": [
+        "Spreadsheet models, simulation and decision trees",
+        "Optimization and decisions under uncertainty"
+      ],
+      "gradingBreakdown": {
+        "Two assignments": "40%",
+        "Final exam": "20%",
+        "Class participation": "10%",
+        "Group project": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "SMBD",
+      "shortName": "SMBD",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "SMBD_PGP_WT_FULL_3",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Thu",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D16",
+              "sourceText": "SMBD (9)",
+              "parentheticalValue": 9
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D22",
+              "sourceText": "SMBD (9)",
+              "parentheticalValue": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strategic Management in Media and Entertainment Industry",
+      "faculty": "S Raghunath",
+      "area": "Strat",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/SMMEI_SR_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/SMMEI_SR_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 47,
+          "name": "Strategic Management in Media and Entertainment Industry",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "S Raghunath",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Outline duration line ends 27 February 2026 after starting 14 December 2026. The year is inconsistent; exact teaching dates remain unconfirmed."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Media and entertainment business models",
+        "Strategic choice and industry convergence"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "30%",
+        "Readings summary and position outline": "30%",
+        "Group project": "40%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "SMMEI",
+      "shortName": "SMMEI",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "SMMEI_PGP_WT_FULL_4-5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Thu",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Thu",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Thu",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E24",
+              "sourceText": "SMMEI (9)",
+              "parentheticalValue": 9
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F24",
+              "sourceText": "SMMEI (9)",
+              "parentheticalValue": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Product Management",
+      "faculty": "Haragopal Mangipudi",
+      "area": "IS",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/SPM course outline IIMB v2026 Sep 05.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/SPM course outline IIMB v2026 Sep 05.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 21,
+          "name": "Software Product Management",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Haragopal Mangipudi",
+          "area": "IS",
+          "grading": "Standard",
+          "comments": "Mutually exclusive from the course DPM by Prof. Shankhadeep Banerjee",
+          "minSeats": 25,
+          "maxSeats": 75
+        },
+        {
+          "row": 22,
+          "name": "Software Product Management",
+          "credits": 3,
+          "anchor": "PGPEM",
+          "faculty": "Haragopal Mangipudi",
+          "area": "IS",
+          "grading": "Standard",
+          "comments": "Mutually exclusive from the course DPM by Prof. Shankhadeep Banerjee",
+          "minSeats": null,
+          "maxSeats": null
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP, PGPEM. Mutually exclusive from the course DPM by Prof. Shankhadeep Banerjee",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [
+        "Current mastersheet confirms Haragopal Mangipudi for both anchored offerings."
+      ],
+      "outline": [],
+      "gradingBreakdown": {
+        "Individual assignments": "20%",
+        "Weekly quizzes": "15%",
+        "End-term exam": "35%",
+        "Live intern group project": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {
+        "PGP": {
+          "label": "SPM · PGP"
+        },
+        "PGPEM": {
+          "label": "SPM · PGPEM"
+        }
+      },
+      "id": "SPM",
+      "shortName": "SPM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "SPM_PGP_FS_FULL_2",
+          "label": "SPM · PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Sat",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C29",
+              "sourceText": "SPM (3)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C34",
+              "sourceText": "SPM (3)",
+              "parentheticalValue": 3
+            }
+          ]
+        },
+        {
+          "id": "SPM_PGPEM_FS_FULL_4",
+          "label": "SPM · PGPEM",
+          "anchor": "PGPEM",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Sat",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 4,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "E31",
+              "sourceText": "SPM (114)",
+              "parentheticalValue": 114
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 4,
+              "anchor": "PGPEM",
+              "phase": null,
+              "sourceCell": "E36",
+              "sourceText": "SPM (114)",
+              "parentheticalValue": 114
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strategy for Professional Service Firms",
+      "faculty": "Diptiprakash Pradhan",
+      "area": "Strat",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/SPSF_D Pradhan_Strat_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/SPSF_D Pradhan_Strat_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 52,
+          "name": "Strategy for Professional Service Firms*",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Diptiprakash Pradhan",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Strategy and management of professional service firms"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "25%",
+        "End-term exam": "40%",
+        "Project / assignment": "35%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "SPSF",
+      "shortName": "SPSF",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "SPSF_PGP_FS_FULL_2",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Sat",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C30",
+              "sourceText": "SPSF (3)",
+              "parentheticalValue": 3
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C35",
+              "sourceText": "SPSF (3)",
+              "parentheticalValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strategic Thinking and Decision Making",
+      "faculty": "V N Bhattacharya",
+      "area": "Strat",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "EPGP/STDM_VNBhattacharya_Strat_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "EPGP/STDM_VNBhattacharya_Strat_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 51,
+          "name": "Strategic Thinking and Decision Making",
+          "credits": 3,
+          "anchor": "EPGP",
+          "faculty": "V N Bhattacharya",
+          "area": "Strat",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: EPGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Non-PGP anchor shown by the Excel colour legend. Confirm PGP/PGPBA access to each offering; anchor alone does not establish eligibility."
+      ],
+      "mappingNotes": [],
+      "outline": [
+        "Strategic thinking and game theory",
+        "Decision biases, strategic moves and bargaining"
+      ],
+      "gradingBreakdown": {
+        "Surprise quizzes (best two)": "15%",
+        "Business game": "25%",
+        "Notified quiz": "25%",
+        "End-term examination": "35%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "STDM",
+      "shortName": "STDM",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "STDM_EPGP_FS_FULL_3",
+          "label": "EPGP",
+          "anchor": "EPGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Fri",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Sat",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Fri",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D32",
+              "sourceText": "STDM (8)",
+              "parentheticalValue": 8
+            },
+            {
+              "day": "Sat",
+              "slotIndex": 3,
+              "anchor": "EPGP",
+              "phase": null,
+              "sourceCell": "D37",
+              "sourceText": "STDM (8)",
+              "parentheticalValue": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Theatre for Executive Presence",
+      "faculty": "Gaurav Jakhu",
+      "area": "Interdis",
+      "credits": 3,
+      "grading": "Qualitative",
+      "outlineFile": "PGP PGPBA/TEP_GauravJ_InterD_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/TEP_GauravJ_InterD_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 14,
+          "name": "Theatre for Executive Presence",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Gaurav Jakhu",
+          "area": "InterD",
+          "grading": "Qualitative",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 40
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Expressiveness, improvisation and stage confidence",
+        "Collaboration and executive presence through theatre"
+      ],
+      "gradingBreakdown": {
+        "Strategic talk": "20%",
+        "Monologue project": "30%",
+        "Reflection notes": "10%",
+        "Stagecraft": "40%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "TEP",
+      "shortName": "TEP",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "TEP_PGP_WT_FULL_4-5",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Thu",
+              "index": 4,
+              "start": "14:30",
+              "end": "16:00"
+            },
+            {
+              "day": "Thu",
+              "index": 5,
+              "start": "16:15",
+              "end": "17:45"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Thu",
+              "slotIndex": 4,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "E23",
+              "sourceText": "TEP (15)",
+              "parentheticalValue": 15
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 5,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "F23",
+              "sourceText": "TEP (15)",
+              "parentheticalValue": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Time Series and Forecasting Techniques",
+      "faculty": "Soudeep Deb",
+      "area": "DS",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "PGP PGPBA/TSFT_Soudeep_DS_3crd_2026-27.pdf",
+      "outlineFiles": [
+        "PGP PGPBA/TSFT_Soudeep_DS_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 6,
+          "name": "Time Series and Forecasting Techniques",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Soudeep Deb",
+          "area": "DS",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 20,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [],
+      "mappingNotes": [],
+      "outline": [
+        "Time-series patterns and forecasting models",
+        "Practical forecasting with real-life datasets"
+      ],
+      "gradingBreakdown": {
+        "Two in-person quizzes": "30%",
+        "End-term take-home assignment": "40%",
+        "Group project": "30%"
+      },
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "TSFT",
+      "shortName": "TSFT",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "TSFT_PGP_WT_FULL_2",
+          "label": "PGP",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Thu",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C19",
+              "sourceText": "TSFT (13)",
+              "parentheticalValue": 13
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C25",
+              "sourceText": "TSFT (13)",
+              "parentheticalValue": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zen and Mind Training",
+      "faculty": "Dinesh Kumar, Nitesh Batra",
+      "area": "Interdis",
+      "credits": 3,
+      "grading": "Standard",
+      "outlineFile": "Old course outlines/Z&M_DK&NB_InterD_3crd_2025-26.pdf",
+      "outlineFiles": [
+        "Old course outlines/Z&M_DK&NB_InterD_3crd_2025-26.pdf"
+      ],
+      "outlineStatus": "historical",
+      "masterSource": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+      "masterEntries": [
+        {
+          "row": 15,
+          "name": "Zen and Mind Training",
+          "credits": 3,
+          "anchor": "PGP",
+          "faculty": "Dinesh Kumar, Nitesh Batra",
+          "area": "InterD",
+          "grading": "Standard",
+          "comments": null,
+          "minSeats": 25,
+          "maxSeats": 75
+        }
+      ],
+      "eligibilityText": "Current mastersheet anchors: PGP. ",
+      "blockedProgrammes": [],
+      "issues": [
+        "Only a historical outline is supplied. Title, faculty, credits and grading type come from the current mastersheet; current evaluation and course content need reconfirmation."
+      ],
+      "mappingNotes": [],
+      "outline": [],
+      "gradingBreakdown": {},
+      "evaluationNote": null,
+      "evaluationContext": null,
+      "sectionMetadata": {},
+      "id": "ZMT",
+      "shortName": "ZMT",
+      "officialCode": null,
+      "sections": [
+        {
+          "id": "ZMT_PGP_WT_FULL_2",
+          "label": "Group 1",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            },
+            {
+              "day": "Thu",
+              "index": 2,
+              "start": "10:00",
+              "end": "11:30"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C17",
+              "sourceText": "ZMT (28)",
+              "parentheticalValue": 28
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 2,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "C23",
+              "sourceText": "ZMT (28)",
+              "parentheticalValue": 28
+            }
+          ]
+        },
+        {
+          "id": "ZMT_PGP_WT_FULL_3",
+          "label": "Group 2",
+          "anchor": "PGP",
+          "phase": null,
+          "meetings": [
+            {
+              "day": "Wed",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            },
+            {
+              "day": "Thu",
+              "index": 3,
+              "start": "11:45",
+              "end": "13:15"
+            }
+          ],
+          "sources": [
+            {
+              "day": "Wed",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D19",
+              "sourceText": "ZMT (0)",
+              "parentheticalValue": 0
+            },
+            {
+              "day": "Thu",
+              "slotIndex": 3,
+              "anchor": "PGP",
+              "phase": null,
+              "sourceCell": "D25",
+              "sourceText": "ZMT (0)",
+              "parentheticalValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "workshops": [
+    {
+      "id": "WS_5",
+      "name": "Leading with Creativity",
+      "asterisk": false,
+      "credits": 1.5,
+      "anchor": "PGP",
+      "faculty": "Pavan Soni",
+      "area": "Strat",
+      "grading": "Qualitative",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-09",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 5,
+      "outlineFiles": [
+        "Old course outlines/LwC_PavanS_30Sep2025.pdf"
+      ],
+      "outlineStatus": "historical",
+      "issues": [
+        "Only the 2025 Leading with Creativity outline is supplied; current evaluation needs reconfirmation."
+      ]
+    },
+    {
+      "id": "WS_6",
+      "name": "Business Storytelling for Managers",
+      "asterisk": false,
+      "credits": 1.5,
+      "anchor": "PGPEM",
+      "faculty": "Sandeep Das",
+      "area": "Man Com",
+      "grading": "Qualitative",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-09",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 6,
+      "outlineFiles": [
+        "Old course outlines/BSM_SDas_1.5crd_2025-26.pdf"
+      ],
+      "outlineStatus": "historical",
+      "issues": [
+        "Only the 2025–26 outline is supplied. Current timetable anchors this workshop PGPEM; the older mastersheet says PGP. Confirm cross-programme access."
+      ]
+    },
+    {
+      "id": "WS_7",
+      "name": "AI Powered Strategic Marketing",
+      "asterisk": true,
+      "credits": 1.5,
+      "anchor": "PGP",
+      "faculty": "G Shainesh",
+      "area": "Mktg",
+      "grading": "Standard",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-09",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 7,
+      "outlineFiles": [
+        "WORKSHOP/AIPSM_GShainesh_Mktg_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline describes a five-day workshop, whereas the newer timetable schedules 7–9 December (three days). The selector uses the timetable dates; confirm the revised daily teaching allocation."
+      ]
+    },
+    {
+      "id": "WS_8",
+      "name": "Social Impact Investment – Solving Indian Problems the Indian Way",
+      "asterisk": false,
+      "credits": 1.5,
+      "anchor": "PGP",
+      "faculty": "Sachidananda BS,  Nagaraja Prakasam",
+      "area": "Entre",
+      "grading": "Qualitative",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-09",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 8,
+      "outlineFiles": [
+        "WORKSHOP/SII_SachidanandaBS_Entre_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline reports an additional student fee of INR 2,225–4,450 depending on enrolment; confirm the final institute fee."
+      ]
+    },
+    {
+      "id": "WS_9",
+      "name": "Market Design Matters",
+      "asterisk": true,
+      "credits": 3,
+      "anchor": "PGP",
+      "faculty": "Sreelatha Jonnalagedda",
+      "area": "MKtg",
+      "grading": "Qualitative",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-11",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 9,
+      "outlineFiles": [
+        "WORKSHOP/MDM_SreelathaJ_Mktg_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline requires 100% attendance and a field visit; confirm local travel arrangements."
+      ]
+    },
+    {
+      "id": "WS_10",
+      "name": "Sports Analytics",
+      "asterisk": true,
+      "credits": 1.5,
+      "anchor": "PGP",
+      "faculty": "Dimitris Karlis",
+      "area": "DS",
+      "grading": "Standard",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-12",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 10,
+      "outlineFiles": [
+        "WORKSHOP/SportsAnalytics_DimitrisK_DS_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    },
+    {
+      "id": "WS_11",
+      "name": "Marcomms at Work",
+      "asterisk": false,
+      "credits": 1.5,
+      "anchor": "PGP",
+      "faculty": "Sambasivan Moorthy",
+      "area": "Mktg",
+      "grading": "Qualitative",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-12",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 11,
+      "outlineFiles": [
+        "WORKSHOP/Marcomms_S Moorthy_Mktg_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    },
+    {
+      "id": "WS_12",
+      "name": "Design Thinking",
+      "asterisk": false,
+      "credits": 1.5,
+      "anchor": "EPGP",
+      "faculty": "S Rajeev,  Lakshman Seshadri",
+      "area": "Strat",
+      "grading": "Standard",
+      "minSeats": 20,
+      "maxSeats": 40,
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-12",
+      "travel": false,
+      "start": "09:30",
+      "end": "16:30",
+      "sourceRow": 12,
+      "outlineFiles": [
+        "WORKSHOP/DT_RajeevS,LakshmanS_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline suggests 30 November–2 December; the newer timetable says 10–12 December. Older mastersheet anchor is PGP; newer timetable anchor is EPGP. Selector uses the newer timetable."
+      ]
+    },
+    {
+      "id": "WS_14",
+      "name": "Himalayan Mountain Challenge",
+      "asterisk": false,
+      "credits": 3,
+      "anchor": "PGP",
+      "faculty": "India Hikes",
+      "area": "InterD",
+      "grading": "Qualitative",
+      "minSeats": 30,
+      "maxSeats": 50,
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-11",
+      "travel": true,
+      "start": null,
+      "end": null,
+      "sourceRow": 14,
+      "outlineFiles": [
+        "WORKSHOP/HMC_Indiahikes_Brahmatal Trek Student Copy 2026.pdf",
+        "WORKSHOP/HMC_Indiahikes_with course fee_Dec 2026.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    },
+    {
+      "id": "WS_15",
+      "name": "Himalayan Mountain Challenge",
+      "asterisk": false,
+      "credits": 3,
+      "anchor": "PGPEM",
+      "faculty": "India Hikes",
+      "area": "InterD",
+      "grading": "Qualitative",
+      "minSeats": 30,
+      "maxSeats": 50,
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-12",
+      "travel": true,
+      "start": null,
+      "end": null,
+      "sourceRow": 15,
+      "outlineFiles": [
+        "WORKSHOP/HMC_Indiahikes_Brahmatal Trek Student Copy 2026.pdf",
+        "WORKSHOP/HMC_Indiahikes_with course fee_Dec 2026.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    }
+  ],
+  "notes": [
+    "Programme anchors use the Excel font-colour legend (PGP green, EPGP red, PGPEM blue). PGPBA is not separately identified.",
+    "Parenthetical numbers are preserved as raw source values. Their meaning is not defined in this workbook; they are not shown as seats, demand or bid prices.",
+    "ZMT: two Wednesday/Thursday groups at 10:00 and 11:45, confirmed by the user and present in the Excel.",
+    "Regular faculty, credits and grading type are matched to the 18 September mastersheet and course outlines. Latest 9 October timetable controls actual class times. Formal catalogue codes remain unconfirmed.",
+    "Seven regular outlines are historical: ZMT, IHP, IWR, GM, DM, LCF, PBM. Their old assessments are not shown as current. RMD professor-to-slot mapping is unresolved and the Mayank Nagpal outline is missing.",
+    "GCK, SPM and SL offerings share the same professor according to the mastersheet/outlines. Their times remain separate alternatives; programme access to each group still needs confirmation.",
+    "Explicit restrictions: BGS excludes PGP/PGPBA; DBWAI excludes PGPBA; PBM excludes PGPEM. Other anchors do not establish eligibility.",
+    "Campus workshops run 09:30–16:30 within the listed dates, with breaks; exact daily teaching allocation is not provided.",
+    "Workshops marked with an asterisk in Excel retain that mark; its meaning is unspecified."
+  ],
+  "workshopRules": [
+    "Add/drop options are not allowed for travel-based and campus-based workshops from 6-12 December 2026.",
+    "Students may register in two of the campus-based workshops that do not clash with each other.",
+    "Campus-based workshops offered on same days are mutually exclusive from each other.",
+    "Travel-based workshops are mutually exclusive from other travel-based and campus-based workshops.",
+    "Those who are enrolled in BPIMs cannot enrol in travel-based and campus-based workshops offered during 6 - 12 December 2026."
+  ]
+}

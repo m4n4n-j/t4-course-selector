@@ -1,0 +1,846 @@
+{
+  "mastersheet": "Dec 2026-Mar 2027_Mastersheet_18Sep2026.xlsx",
+  "regular": {
+    "SMBD": {
+      "masterRows": [
+        4
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/SMBDP_ReshmaC_DS_3crd_2026-27.pdf"
+      ],
+      "name": "Spreadsheet Modeling for Business Decision Problems",
+      "faculty": "Reshma Chandrasekharan",
+      "mappingNotes": [
+        "Timetable SMBD maps to SMBDP filename and mastersheet Spreadsheet Models for Business Decisions."
+      ],
+      "gradingBreakdown": {
+        "Two assignments": "40%",
+        "Final exam": "20%",
+        "Class participation": "10%",
+        "Group project": "30%"
+      },
+      "outline": [
+        "Spreadsheet models, simulation and decision trees",
+        "Optimization and decisions under uncertainty"
+      ]
+    },
+    "DVS": {
+      "masterRows": [
+        5
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/DVS_Sharada S_DS_3crd_2026-27.pdf"
+      ],
+      "name": "Data Visualization and Storytelling",
+      "gradingBreakdown": {
+        "End term": "25%",
+        "In-class group presentation": "30%",
+        "Assignment": "30%",
+        "In-class quizzes": "15%"
+      },
+      "outline": [
+        "Visualization design and storytelling with data",
+        "Tableau, dashboards and visual analytics"
+      ]
+    },
+    "TSFT": {
+      "masterRows": [
+        6
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/TSFT_Soudeep_DS_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Two in-person quizzes": "30%",
+        "End-term take-home assignment": "40%",
+        "Group project": "30%"
+      },
+      "outline": [
+        "Time-series patterns and forecasting models",
+        "Practical forecasting with real-life datasets"
+      ]
+    },
+    "IM": {
+      "masterRows": [
+        7
+      ],
+      "outlineFiles": [
+        "PGPEM/IM_ChethanS_Econ_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Mid term": "35%",
+        "Group presentation": "15%",
+        "Final": "50%"
+      },
+      "outline": [
+        "International finance and open-economy macroeconomics",
+        "Capital flows, exchange rates and sovereign crises"
+      ]
+    },
+    "BSCP": {
+      "masterRows": [
+        8
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/BSCP_Gaurav_J_3crds_Econ_2026-27.pdf"
+      ]
+    },
+    "EM": {
+      "masterRows": [
+        9
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/EM_Ludvig_Entre_3crd_2026-27.pdf"
+      ],
+      "faculty": "Ludvig Levasseur",
+      "eligibilityText": "PG students. Current mastersheet confirms PGP anchor for Term 6; outline header labels EPGP Term 5 for the same December–March period.",
+      "issues": [
+        "Outline says EPGP Term 5; mastersheet and timetable both anchor this course in PGP. Confirm the header is reused for the shared course."
+      ]
+    },
+    "AIEM": {
+      "masterRows": [
+        10
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/AI&EM_Ramya Murthy_Entre_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Group project (includes peer evaluation)": "30%",
+        "Class participation": "10%",
+        "Quiz 1": "15%",
+        "Quiz 2": "15%",
+        "Final exam": "30%"
+      },
+      "outline": [
+        "AI-native venture opportunities and business models",
+        "Entrepreneurial judgment and management under rapid change"
+      ]
+    },
+    "NEF": {
+      "masterRows": [
+        11
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/NEF_G Sabarinathan_F&A_3crds_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Quiz": "20%",
+        "Case submission": "20%",
+        "End term": "40%",
+        "Project": "20%"
+      },
+      "outline": [
+        "Financing early-stage and growth-stage enterprises",
+        "Venture financing cases and financing strategy"
+      ]
+    },
+    "IB": {
+      "masterRows": [
+        12
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/IB_Srijith M_F&A_3crd_2026-27.pdf"
+      ]
+    },
+    "CBM": {
+      "masterRows": [
+        13
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/CBM_JayadevM_F&A_3crds_2026-27.pdf"
+      ]
+    },
+    "TEP": {
+      "masterRows": [
+        14
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/TEP_GauravJ_InterD_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Strategic talk": "20%",
+        "Monologue project": "30%",
+        "Reflection notes": "10%",
+        "Stagecraft": "40%"
+      },
+      "outline": [
+        "Expressiveness, improvisation and stage confidence",
+        "Collaboration and executive presence through theatre"
+      ]
+    },
+    "ZMT": {
+      "masterRows": [
+        15
+      ],
+      "outlineFiles": [
+        "Old course outlines/Z&M_DK&NB_InterD_3crd_2025-26.pdf"
+      ],
+      "outlineStatus": "historical"
+    },
+    "EAD": {
+      "masterRows": [
+        16
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/EAD_KK_3crd_2026-27.pdf"
+      ],
+      "name": "Exploring Architecture and Design: Lessons for Managers",
+      "mappingNotes": [
+        "Spelling corrected using the outline title."
+      ],
+      "gradingBreakdown": {
+        "Group hands-on exercises": "30%",
+        "Individual reflective writing and exercises": "40%",
+        "Group end-term project": "20%",
+        "Individual end-term project": "10%"
+      }
+    },
+    "IHP": {
+      "masterRows": [
+        17
+      ],
+      "outlineFiles": [
+        "Old course outlines/IHP 2025-26.pdf"
+      ],
+      "outlineStatus": "historical"
+    },
+    "IWR": {
+      "masterRows": [
+        18
+      ],
+      "outlineFiles": [
+        "Old course outlines/IWR 2025-26.pdf"
+      ],
+      "outlineStatus": "historical"
+    },
+    "GCK": {
+      "masterRows": [
+        19,
+        20
+      ],
+      "outlineFiles": [
+        "EPGP/GCK_Shanker S_InterD_3crd_2026-27.pdf",
+        "PGPEM/GCK_Shanker S_InterD_3crd_2026-27.pdf"
+      ],
+      "faculty": "Shanker Subramoney",
+      "sectionMetadata": {
+        "EPGP": {
+          "label": "GCK-1 · EPGP"
+        },
+        "PGPEM": {
+          "label": "GCK-2 · PGPEM"
+        }
+      },
+      "mappingNotes": [
+        "Mastersheet rows 19 and 20 confirm the same professor for GCK-1 and GCK-2. Identical PDFs occur in the EPGP and PGPEM folders."
+      ]
+    },
+    "SPM": {
+      "masterRows": [
+        21,
+        22
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/SPM course outline IIMB v2026 Sep 05.pdf"
+      ],
+      "sectionMetadata": {
+        "PGP": {
+          "label": "SPM · PGP"
+        },
+        "PGPEM": {
+          "label": "SPM · PGPEM"
+        }
+      },
+      "mappingNotes": [
+        "Current mastersheet confirms Haragopal Mangipudi for both anchored offerings."
+      ],
+      "gradingBreakdown": {
+        "Individual assignments": "20%",
+        "Weekly quizzes": "15%",
+        "End-term exam": "35%",
+        "Live intern group project": "30%"
+      }
+    },
+    "RAI": {
+      "masterRows": [
+        23
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/Res AI_RajeshN_IS_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Quizzes (3/4)": "45%",
+        "Attendance and class participation": "10%",
+        "Group project / term paper and presentation": "35%",
+        "Individual assignment": "10%"
+      },
+      "outline": [
+        "AI bias, accountability and responsible deployment",
+        "AI governance and real-world ethical consequences"
+      ]
+    },
+    "DBWAI": {
+      "masterRows": [
+        24
+      ],
+      "outlineFiles": [
+        "EPGP/DBAI_Shankar V_IS_3crd_2026-27.pdf"
+      ],
+      "name": "Doing Business with AI",
+      "blockedProgrammes": [
+        "PGPBA"
+      ],
+      "eligibilityText": "EPGP, open to other PG programmes, explicitly excluding PGPBA.",
+      "issues": [
+        "Timetable uses DBWAI; the outline and mastersheet use DBAI. Confirm these abbreviations identify the same offering."
+      ],
+      "gradingBreakdown": {
+        "Final": "40%",
+        "Two quizzes": "30%",
+        "Class participation": "10%",
+        "Project": "20%"
+      },
+      "outline": [
+        "Business applications and mechanisms of AI",
+        "Deep learning and business case analysis"
+      ]
+    },
+    "IMC": {
+      "masterRows": [
+        25
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/IMC_JugalC_ManCom_1.5crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "In-class exercise (individual)": "10 marks",
+        "In-class quizzes (individual)": "15 marks",
+        "Assignment (group)": "25 marks"
+      },
+      "evaluationNote": "The outline table totals 50 marks (10 + 15 + 25). Values are preserved as marks, not treated as percentages."
+    },
+    "BBM": {
+      "masterRows": [
+        26
+      ],
+      "outlineFiles": [
+        "EPGP/B2B_M Kuruvilla_Mktg_3crd_2026-27.pdf"
+      ],
+      "name": "Business to Business Marketing",
+      "issues": [
+        "Timetable uses BBM; outline filename uses B2B. Matched to the unique Business to Business Marketing entry in the mastersheet; confirm abbreviation."
+      ],
+      "gradingBreakdown": {
+        "Class participation": "20%",
+        "Quizzes": "30%",
+        "Group presentation": "20%",
+        "End-term exam": "30%"
+      },
+      "outline": [
+        "Organizational buying and buyer–seller relationships",
+        "Value propositions and B2B marketing strategies"
+      ]
+    },
+    "DMS": {
+      "masterRows": [
+        27
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/DMS_GS3crd_2026-27.pdf"
+      ]
+    },
+    "GM": {
+      "masterRows": [
+        28
+      ],
+      "outlineFiles": [
+        "Old course outlines/GM-Malika_3crd_Mkt_Sept2025.pdf"
+      ],
+      "outlineStatus": "historical"
+    },
+    "RMD": {
+      "masterRows": [
+        29,
+        30
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/RMD_G Das_Mktg_3crd_2026-27.pdf"
+      ]
+    },
+    "CB": {
+      "masterRows": [
+        31
+      ],
+      "outlineFiles": [
+        "EPGP/CB_G Das_Mktg_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "5%",
+        "Presentations and assignments": "15%",
+        "End term": "50%",
+        "Project": "30%"
+      },
+      "outline": [
+        "Consumer decision making and marketing behaviour"
+      ]
+    },
+    "MA": {
+      "masterRows": [
+        32
+      ],
+      "outlineFiles": [
+        "EPGP/MA_Nalini G_Mktg_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "End-term exam": "60%",
+        "In-class work": "10%",
+        "Group project": "30%"
+      },
+      "outline": [
+        "Marketing data and analytical methods",
+        "Applying analytics to customer and marketing decisions"
+      ]
+    },
+    "MC": {
+      "masterRows": [
+        33
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/MC_S Moorthy_Mktg_3crd_2026-27.pdf"
+      ],
+      "issues": [
+        "Outline header says Term 5. Current mastersheet and timetable identify this course in the Term 6 offering set. Confirm the header is reused."
+      ],
+      "gradingBreakdown": {
+        "Class participation": "20%",
+        "Assignments": "20%",
+        "End-term exam": "20%",
+        "In-class work": "20%",
+        "Project": "20%"
+      },
+      "outline": [
+        "Brand communications and integrated marketing",
+        "Agency/client collaboration and campaign design"
+      ]
+    },
+    "ELRB": {
+      "masterRows": [
+        34
+      ],
+      "outlineFiles": [
+        "PGPEM/ELRB_Abhoy_OBHRM_3crd_2026-27.pdf"
+      ]
+    },
+    "MCST": {
+      "masterRows": [
+        35
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/MCST_GopalM_3crds_OBHRM_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Reflection exercise I": "10%",
+        "Reflected best self exercise": "20%",
+        "Two quizzes": "40%",
+        "End-term examination": "30%"
+      },
+      "outline": [
+        "Career transition, strengths and reflective practice"
+      ]
+    },
+    "DM": {
+      "masterRows": [
+        36
+      ],
+      "outlineFiles": [
+        "Old course outlines/DM_KMukherjee_3crd_2025-26.pdf"
+      ],
+      "outlineStatus": "historical"
+    },
+    "EL": {
+      "masterRows": [
+        37
+      ],
+      "outlineFiles": [
+        "PGPEM/EL_VNBhattacharya_OBHRM_3crd_2026-27.pdf"
+      ]
+    },
+    "LETB": {
+      "masterRows": [
+        38
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/LETB_Prarthan Desai_3crds_OBHRM_2026-27.pdf",
+        "PGP PGPBA/LETB_PrarthanB_OBHRM_3crd-2026-27.pdf"
+      ],
+      "faculty": "Prarthan Desai",
+      "mappingNotes": [
+        "Two supplied versions have the same title, faculty, credit and evaluation weights. Both retained as sources."
+      ],
+      "gradingBreakdown": {
+        "Class participation": "10%",
+        "Quiz": "10%",
+        "Group assignments": "40%",
+        "End-term exam": "40%"
+      }
+    },
+    "PM": {
+      "masterRows": [
+        39
+      ],
+      "outlineFiles": [
+        "PGPEM/PM_Anandalingam_POM_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Project planning exercise": "20%",
+        "Four case write-ups": "40%",
+        "Three in-class exams": "30%",
+        "Class participation": "10%"
+      },
+      "outline": [
+        "Project selection, planning and risk",
+        "Scheduling, resources and project execution"
+      ]
+    },
+    "SDM": {
+      "masterRows": [
+        40
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/SDM_MayaG_POM_3crd_2026-27.pdf"
+      ],
+      "name": "Service Delivery and Management",
+      "mappingNotes": [
+        "Blank PDF title resolved from current mastersheet row 40, matching acronym and Maya Ganesh."
+      ]
+    },
+    "EPCP": {
+      "masterRows": [
+        41
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/EPCP_Soham Sahoo_PP_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "10%",
+        "In-class quizzes": "20%",
+        "End-term exam": "40%",
+        "Group presentations": "30%"
+      },
+      "outline": [
+        "Education policy concepts and evidence",
+        "Indian education organizations and policy practice"
+      ]
+    },
+    "BGS": {
+      "masterRows": [
+        42
+      ],
+      "outlineFiles": [
+        "EPGP/BGS_Sriram MS_PP_3crd_2026-27.pdf"
+      ],
+      "blockedProgrammes": [
+        "PGP",
+        "PGPBA"
+      ],
+      "eligibilityText": "Current mastersheet explicitly states: open to PGPEM and EPGP only.",
+      "gradingBreakdown": {
+        "Three learning notes": "30%",
+        "Class participation": "10%",
+        "Team project": "30%",
+        "End-term case analysis": "30%"
+      },
+      "outline": [
+        "Interactions between business, government and society"
+      ]
+    },
+    "IBF": {
+      "masterRows": [
+        43
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/IBF_Sriram MS_PP_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Mid-term case analysis": "25%",
+        "End-term case analysis": "25%",
+        "Group presentation": "15%",
+        "Term paper": "25%",
+        "Class participation": "10%"
+      },
+      "outline": [
+        "Financial inclusion models and institutional architecture",
+        "Inclusive banking and fintech"
+      ]
+    },
+    "FME": {
+      "masterRows": [
+        44
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/FME_BaluK_PP_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "15%",
+        "Group work, assignments and case studies": "35%",
+        "End-term assessment": "50%"
+      },
+      "outline": [
+        "Central banking, monetary policy and financial stability"
+      ]
+    },
+    "LCF": {
+      "masterRows": [
+        45
+      ],
+      "outlineFiles": [
+        "Old course outlines/LCF 2024-26.pdf"
+      ],
+      "outlineStatus": "historical"
+    },
+    "PBM": {
+      "masterRows": [
+        46
+      ],
+      "outlineFiles": [
+        "EPGP/PBM_RSrinivasan_Strat_3crd_2026.pdf"
+      ],
+      "outlineStatus": "historical",
+      "blockedProgrammes": [
+        "PGPEM"
+      ],
+      "eligibilityText": "Mastersheet excludes PGPEM; supplied outline header lists EPGP/PGP/PGPBA.",
+      "issues": [
+        "Although the filename says 2026, the outline body says 2025–26. Current evaluation is not imported from it."
+      ]
+    },
+    "SMMEI": {
+      "masterRows": [
+        47
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/SMMEI_SR_3crd_2026-27.pdf"
+      ],
+      "issues": [
+        "Outline duration line ends 27 February 2026 after starting 14 December 2026. The year is inconsistent; exact teaching dates remain unconfirmed."
+      ],
+      "gradingBreakdown": {
+        "Class participation": "30%",
+        "Readings summary and position outline": "30%",
+        "Group project": "40%"
+      },
+      "outline": [
+        "Media and entertainment business models",
+        "Strategic choice and industry convergence"
+      ]
+    },
+    "SL": {
+      "masterRows": [
+        48,
+        49
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/SL_SPatvardhan_Strat_3crd_2026-27.pdf",
+        "PGPEM/SL-Patvardhan-STR-3crd-2026-27 PGPEM EPGP.pdf"
+      ],
+      "faculty": "Shubha Patvardhan",
+      "sectionMetadata": {
+        "PGP": {
+          "label": "SL-1 · PGP",
+          "outlineFiles": [
+            "PGP PGPBA/SL_SPatvardhan_Strat_3crd_2026-27.pdf"
+          ],
+          "eligibilityText": "This version explicitly lists PGP."
+        },
+        "PGPEM": {
+          "label": "SL-2 · PGPEM",
+          "outlineFiles": [
+            "PGPEM/SL-Patvardhan-STR-3crd-2026-27 PGPEM EPGP.pdf"
+          ],
+          "eligibilityText": "This version explicitly lists PGPEM/EPGP; PGP access to SL-2 requires confirmation."
+        }
+      },
+      "mappingNotes": [
+        "Current mastersheet confirms the same professor for SL-1 and SL-2. Programme-specific outlines are retained separately."
+      ],
+      "gradingBreakdown": {
+        "Class participation": "30%",
+        "Term project": "35%",
+        "Reflective assessment": "35%"
+      },
+      "outline": [
+        "Strategic judgment under uncertainty",
+        "Trade-offs, foresight and organizational agency"
+      ]
+    },
+    "AIS": {
+      "masterRows": [
+        50
+      ],
+      "outlineFiles": [
+        "PGPEM/AIS_Vijay V_Strat_3crd_2026-27.pdf"
+      ],
+      "eligibilityText": "PG programmes. Mastersheet and timetable use PGPEM anchor; the outline header says anchored through PGP.",
+      "issues": [
+        "Outline anchor is PGP, while current mastersheet and timetable agree on PGPEM. Confirm reused header and any faculty-directed seat allocation."
+      ],
+      "gradingBreakdown": {
+        "Quiz 1": "10%",
+        "Quiz 2": "10%",
+        "Class participation": "15%",
+        "Case analysis": "15%",
+        "Project": "25%",
+        "Final exam": "25%"
+      },
+      "outline": [
+        "AI economics and firm strategy",
+        "Job redesign, governance and societal challenges"
+      ]
+    },
+    "STDM": {
+      "masterRows": [
+        51
+      ],
+      "outlineFiles": [
+        "EPGP/STDM_VNBhattacharya_Strat_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Surprise quizzes (best two)": "15%",
+        "Business game": "25%",
+        "Notified quiz": "25%",
+        "End-term examination": "35%"
+      },
+      "outline": [
+        "Strategic thinking and game theory",
+        "Decision biases, strategic moves and bargaining"
+      ]
+    },
+    "SPSF": {
+      "masterRows": [
+        52
+      ],
+      "outlineFiles": [
+        "PGP PGPBA/SPSF_D Pradhan_Strat_3crd_2026-27.pdf"
+      ],
+      "gradingBreakdown": {
+        "Class participation": "25%",
+        "End-term exam": "40%",
+        "Project / assignment": "35%"
+      },
+      "outline": [
+        "Strategy and management of professional service firms"
+      ]
+    },
+    "SEII": {
+      "masterRows": [],
+      "outlineFiles": [
+        "PGP PGPBA/SEIIE_SBS_3crd_2026-27.pdf"
+      ],
+      "name": "Sports Entrepreneurship and Innovation in the Indian Ecosystem",
+      "faculty": "Sachidananda Benegal",
+      "area": "Entre",
+      "credits": 3,
+      "grading": "Standard",
+      "eligibilityText": "Outline states PG programmes and PGP Term 6.",
+      "issues": [
+        "Timetable SEII is mapped to SEIIE outline by title and context. This course is absent from the older 18 September mastersheet; confirm the abbreviation."
+      ],
+      "gradingBreakdown": {
+        "Class participation": "20%",
+        "End term": "45%",
+        "Project": "35%"
+      },
+      "outline": [
+        "Sports ventures and the Indian sports ecosystem",
+        "Entrepreneurship and innovation in sports"
+      ]
+    }
+  },
+  "workshops": {
+    "WS_5": {
+      "outlineFiles": [
+        "Old course outlines/LwC_PavanS_30Sep2025.pdf"
+      ],
+      "outlineStatus": "historical",
+      "issues": [
+        "Only the 2025 Leading with Creativity outline is supplied; current evaluation needs reconfirmation."
+      ]
+    },
+    "WS_6": {
+      "outlineFiles": [
+        "Old course outlines/BSM_SDas_1.5crd_2025-26.pdf"
+      ],
+      "outlineStatus": "historical",
+      "issues": [
+        "Only the 2025–26 outline is supplied. Current timetable anchors this workshop PGPEM; the older mastersheet says PGP. Confirm cross-programme access."
+      ]
+    },
+    "WS_7": {
+      "outlineFiles": [
+        "WORKSHOP/AIPSM_GShainesh_Mktg_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline describes a five-day workshop, whereas the newer timetable schedules 7–9 December (three days). The selector uses the timetable dates; confirm the revised daily teaching allocation."
+      ]
+    },
+    "WS_8": {
+      "outlineFiles": [
+        "WORKSHOP/SII_SachidanandaBS_Entre_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline reports an additional student fee of INR 2,225–4,450 depending on enrolment; confirm the final institute fee."
+      ]
+    },
+    "WS_9": {
+      "outlineFiles": [
+        "WORKSHOP/MDM_SreelathaJ_Mktg_3crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline requires 100% attendance and a field visit; confirm local travel arrangements."
+      ]
+    },
+    "WS_10": {
+      "outlineFiles": [
+        "WORKSHOP/SportsAnalytics_DimitrisK_DS_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    },
+    "WS_11": {
+      "outlineFiles": [
+        "WORKSHOP/Marcomms_S Moorthy_Mktg_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    },
+    "WS_12": {
+      "outlineFiles": [
+        "WORKSHOP/DT_RajeevS,LakshmanS_1.5crd_2026-27.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": [
+        "Outline suggests 30 November–2 December; the newer timetable says 10–12 December. Older mastersheet anchor is PGP; newer timetable anchor is EPGP. Selector uses the newer timetable."
+      ]
+    },
+    "WS_14": {
+      "outlineFiles": [
+        "WORKSHOP/HMC_Indiahikes_Brahmatal Trek Student Copy 2026.pdf",
+        "WORKSHOP/HMC_Indiahikes_with course fee_Dec 2026.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    },
+    "WS_15": {
+      "outlineFiles": [
+        "WORKSHOP/HMC_Indiahikes_Brahmatal Trek Student Copy 2026.pdf",
+        "WORKSHOP/HMC_Indiahikes_with course fee_Dec 2026.pdf"
+      ],
+      "outlineStatus": "current",
+      "issues": []
+    }
+  }
+}

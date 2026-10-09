@@ -2,19 +2,53 @@
 
 **Live GitHub Pages site: https://m4n4n-j.github.io/t4-course-selector/**
 
-The existing Term 4 selector now uses the 9 October 2026, 16:00 consolidated timetable for December 2026–March 2027. The repository and Pages URL are unchanged. Term 4 source and deployments remain in Git history.
+The existing Term 4 selector now uses the 9 October 2026, 16:00 consolidated timetable for December 2026–March 2027. The site is labelled **Term 6 Course Selector**. The current Pages URL stays available until the repository is renamed; the build uses relative asset paths to support either repository name. Term 4 source and deployments remain in Git history.
 
 ## Student features
 
 - My programme selector blocks explicit exclusions (BGS for PGP/PGPBA, DBWAI for PGPBA, PBM for PGPEM). Other eligibility remains subject to confirmation.
-- Calendar and course-list views, search, teaching-area and anchoring-programme filters.
+- **Browse all courses is the starting view:** all 46 courses appear with full names, sorted alphabetically. Programme restrictions do not hide courses. Search by title, acronym, faculty or area; reset filters with **Show all courses**.
+- Full names also appear in calendar cards, My plan and schedule exports. **Details** opens course information; **Add to plan** selects an offering.
 - Drag an offering into My plan or a scheduled calendar cell. Tap controls also work on phones. Fixed class times cannot be moved.
 - Clashes are blocked across every actual teaching day and session. Choose one offering per timetable acronym. Swapping groups checks against the other selected courses.
 - ZMT has two Wed/Thu groups: 10:00–11:30 and 11:45–13:15.
 - Thursday double sessions, including Investment Banking, reserve both afternoon slots on Thursday only.
-- December workshop dates, overlap rules, travel exclusions and BPIM restrictions.
+- **Workshops are opt-in:** they stay hidden until **Include workshops** is checked. Turning it off removes selected workshops and their credits from the plan; regular choices remain. Each selected workshop also has a Remove control. The preference saves on the device.
+- When enabled, workshops show December dates, overlap rules, travel exclusions and BPIM restrictions.
 - Device-local saving, reject/restore controls, text download and selected-schedule image export. Term 6 uses separate storage keys from Term 4.
 - Mapping review with source cells, unresolved questions and downloadable JSON.
+
+## What outlines are missing?
+
+No regular course is missing its full-name mapping. These seven only have historical outlines, so current assessments and course content need current-year PDFs:
+
+| Acronym | Full course name |
+| --- | --- |
+| ZMT | Zen and Mind Training |
+| IHP | Introduction to Hindu Philosophy |
+| IWR | Introduction to World Religions |
+| GM | Global Marketing |
+| DM | Decision Making |
+| LCF | Learning from Corporate Failures |
+| PBM | Platform Business Models |
+
+**Research for Marketing Decisions (RMD):** Gopal Das's outline is supplied; Mayank Nagpal's outline is missing. The timetable and master sheet disagree on programme anchoring, so professor-to-slot allocation also needs confirmation.
+
+If workshops are included, **Leading with Creativity** and **Business Storytelling for Managers** need current versions too. Other workshop outlines are matched, with date and programme discrepancies recorded in [the mapping review](docs/TERM6_REVIEW.md).
+
+The site's **Missing outlines & review** tab lists the full names and outstanding questions. Confirm programme access, PRE/POST boundaries and Term 6 credit limits separately.
+
+## Rename the GitHub Pages URL
+
+Proposed name: **`t6-course-selector`**, giving **https://m4n4n-j.github.io/t6-course-selector/** after the rename and deployment. This URL is not live yet.
+
+1. An owner opens [Repository Settings](https://github.com/m4n4n-j/t4-course-selector/settings), enters `t6-course-selector` under Repository name and selects Rename.
+2. Update this README's live link and any clone's remote to the renamed repository. Keep Pages publishing from `gh-pages` at `/ (root)`.
+3. Confirm the Pages deployment completes and the new URL serves the selector. If needed, redeploy `dist/` to `gh-pages` to trigger publication.
+
+GitHub redirects repository links after a rename, but **does not automatically redirect project Pages URLs** ([GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository)). Share the new student link after verifying it.
+
+The build already uses `base: './'`, with no hard-coded old repository path or package homepage. The connected GitHub tools can publish source and deployments but cannot rename repositories.
 
 ## Data and evidence
 
@@ -39,12 +73,12 @@ Each regular course retains the earlier course/section shape (`id`, `name`, `sho
 
 3. Review generated `src/data/term6.json` and `docs/TERM6_REVIEW.md`, especially new colours, group splits, phase boundaries and duplicate acronyms.
 4. Run `npm ci`, `npm run test`, then `npm run build`.
-5. Commit source to `main`. Deploy the contents of `dist/` to the existing `gh-pages` branch (`npm run deploy` with Git credentials). Keep Vite's `/t4-course-selector/` base path.
+5. Commit source to `main`. Deploy the contents of `dist/` to the existing `gh-pages` branch (`npm run deploy` with Git credentials). Keep Vite's relative `./` base path so the same build works before and after a repository rename.
 
 No arbitrary six-course cap is carried over: Term 6 limits were not supplied. Confirmed credits are summed; courses with unknown credits are clearly counted separately. PRE/POST offerings conservatively clash until their date boundaries are known.
 
 ## Validation
 
-Scheduling tests cover ZMT group alternatives, section swaps, exact-day conflicts, Thursday double sessions, damaged/stale saved choices, campus workshop dates, travel exclusions and BPIM exclusions. The parsing audit reconciles all 102 regular source cells exactly once and verifies current evaluation totals (100%, except IMC which uses a 50-mark scale) and explicit programme exclusions. Production Vite build must pass before deployment.
+Scheduling tests cover ZMT group alternatives, section swaps, exact-day conflicts, Thursday double sessions, damaged/stale saved choices, campus workshop dates, travel exclusions and BPIM exclusions. The parsing audit reconciles all 102 regular source cells exactly once and verifies current evaluation totals (100%, except IMC which uses a 50-mark scale) and explicit programme exclusions. Opt-in checks ensure saved workshops do not reappear when disabled or under BPIM restrictions. Production Vite build must pass before deployment.
 
 Browser visual/drag-and-drop QA was unavailable in the development environment; build and scheduling/data checks do not establish browser rendering or image-export behaviour.

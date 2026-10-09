@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { overlaps, eligibilityIssue, conflictWith, selectSection, restoreSelections, workshopConflict } from '../src/schedule.js';
+import { overlaps, eligibilityIssue, conflictWith, selectSection, restoreSelections, restoreWorkshops, workshopConflict } from '../src/schedule.js';
 const data = JSON.parse(fs.readFileSync(new URL('../src/data/term6.json', import.meta.url)));
 const course = id => data.courses.find(c => c.id === id);
 test('ZMT alternatives reserve Wednesday and Thursday at the right times', () => {
@@ -66,4 +66,13 @@ test('explicit programme exclusions apply to adding and restoring choices', () =
   assert.deepEqual(restoreSelections(JSON.stringify({BGS:bgs.sections[0].id}),data.courses,'PGP'),{});
   assert.equal(data.courses.filter(c=>c.outlineStatus==='historical').length,7);
   assert.equal(Object.keys(course('RMD').gradingBreakdown).length,0);
+});
+
+test('workshops require opt-in, including saved selections', () => {
+  const early=data.workshops.find(w=>w.id==='WS_5'),late=data.workshops.find(w=>w.id==='WS_10');
+  const saved=[early.id,early.id,'UNKNOWN',late.id];
+  assert.deepEqual(restoreWorkshops(saved,data.workshops),[]);
+  assert.deepEqual(restoreWorkshops(saved,data.workshops,false),[]);
+  assert.deepEqual(restoreWorkshops(saved,data.workshops,true,true),[]);
+  assert.deepEqual(restoreWorkshops(saved,data.workshops,true).map(w=>w.id),[early.id,late.id]);
 });

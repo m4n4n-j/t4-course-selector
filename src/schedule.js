@@ -43,3 +43,13 @@ export function meetingLabel(section) {
   }
   return [...grouped].map(([time, days]) => `${days.join('/')} ${time}`).join(' + ');
 }
+
+export function restoreWorkshops(savedIds, workshops, enabled = false, bpim = false) {
+  if (!enabled || bpim || !Array.isArray(savedIds)) return [];
+  const valid = [];
+  for (const id of savedIds) {
+    const workshop = workshops.find(w=>w.id===id);
+    if (workshop && !valid.some(w=>w.id===id) && !workshopConflict(workshop,valid)) valid.push(workshop);
+  }
+  return valid;
+}

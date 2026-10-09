@@ -203,7 +203,8 @@
       "outlineFiles": [
         "Old course outlines/IHP 2025-26.pdf"
       ],
-      "outlineStatus": "historical"
+      "outlineStatus": "historical",
+      "name": "Introduction to Hindu Philosophy"
     },
     "IWR": {
       "masterRows": [
@@ -212,7 +213,8 @@
       "outlineFiles": [
         "Old course outlines/IWR 2025-26.pdf"
       ],
-      "outlineStatus": "historical"
+      "outlineStatus": "historical",
+      "name": "Introduction to World Religions"
     },
     "GCK": {
       "masterRows": [
@@ -234,7 +236,8 @@
       },
       "mappingNotes": [
         "Mastersheet rows 19 and 20 confirm the same professor for GCK-1 and GCK-2. Identical PDFs occur in the EPGP and PGPEM folders."
-      ]
+      ],
+      "name": "General Commercial Knowledge"
     },
     "SPM": {
       "masterRows": [
@@ -422,7 +425,8 @@
       "outline": [
         "Brand communications and integrated marketing",
         "Agency/client collaboration and campaign design"
-      ]
+      ],
+      "name": "Marketing Communications"
     },
     "ELRB": {
       "masterRows": [
@@ -430,7 +434,8 @@
       ],
       "outlineFiles": [
         "PGPEM/ELRB_Abhoy_OBHRM_3crd_2026-27.pdf"
-      ]
+      ],
+      "name": "Enlightened Leadership for Responsible Business"
     },
     "MCST": {
       "masterRows": [
@@ -597,7 +602,8 @@
       "outlineFiles": [
         "Old course outlines/LCF 2024-26.pdf"
       ],
-      "outlineStatus": "historical"
+      "outlineStatus": "historical",
+      "name": "Learning from Corporate Failures"
     },
     "PBM": {
       "masterRows": [
@@ -672,7 +678,8 @@
       "outline": [
         "Strategic judgment under uncertainty",
         "Trade-offs, foresight and organizational agency"
-      ]
+      ],
+      "name": "Strategic Leadership"
     },
     "AIS": {
       "masterRows": [

@@ -8,7 +8,7 @@ The existing Term 4 selector now uses the 9 October 2026, 16:00 consolidated tim
 
 - My programme selector blocks explicit exclusions (BGS for PGP/PGPBA, DBWAI for PGPBA, PBM for PGPEM). Other eligibility remains subject to confirmation.
 - **Browse all courses is the starting view:** all 46 courses appear with full names, sorted alphabetically. Programme restrictions do not hide courses. Search by title, acronym, faculty or area; reset filters with **Show all courses**.
-- Full names also appear in calendar cards, My plan and schedule exports. **Details** opens course information; **Add to plan** selects an offering.
+- Calendar cards use prominent course codes with smaller full names underneath; long names fit within two lines. Tap the title/info control for the complete name and details. The grid starts at 842px wide with sticky day and time labels, so larger screens show the week with less scrolling. My plan and schedule exports retain full names. **Details** opens course information; **Add to plan** selects an offering.
 - Drag an offering into My plan or a scheduled calendar cell. Tap controls also work on phones. Fixed class times cannot be moved.
 - Clashes are blocked across every actual teaching day and session. Choose one offering per timetable acronym. Swapping groups checks against the other selected courses.
 - ZMT has two Wed/Thu groups: 10:00–11:30 and 11:45–13:15.

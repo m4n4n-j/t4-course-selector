@@ -44,3 +44,25 @@
 .review-table{font-size:14px}.review-table table,.review-table .text-button{font-size:14px}.review-box{font-size:14px}
 .modal-body{font-size:15px}.offering small{display:block;overflow-wrap:anywhere;color:#64748b}.evaluation{font-size:14px}
 @media(max-width:700px){.course-list{grid-template-columns:1fr}.course-card{padding:13px}.course-title b{font-size:16px}.masthead h1{font-size:27px}.filters input{width:100%}.filters select{font-size:13px}.tabs button{flex:1 1 auto;font-size:13px}.workshop-toggle{margin-left:0}.programme-control{padding:16px 17px 0;gap:12px}.programme-control span{font-size:13px}.plan-chip{flex-direction:column;position:relative;padding-right:30px}.plan-chip button{position:absolute;right:8px;top:5px}.plan-chip span{font-size:12px}.compact .course-title b{font-size:13px}.modal-body{padding:17px}}
+
+/* Export sheets keep a fixed complete week, including on phones. */
+.selected-sheet-scroll{overflow-x:auto;border:1px solid #e2e8f0;border-radius:10px;background:white}
+.plan-sheet{width:1000px;padding:28px;background:white;color:#0f172a;font-size:13px;line-height:1.45}
+.sheet-heading{display:flex;justify-content:space-between;gap:22px;border-bottom:3px solid #0f172a;padding-bottom:16px;margin-bottom:18px}
+.sheet-heading h2{font-size:25px;margin:4px 0}.sheet-heading p{color:#475569;font-size:12px}.sheet-heading>div:last-child{text-align:right}
+.sheet-calendar{display:grid;grid-template-columns:66px repeat(6,minmax(0,1fr));gap:1px;background:#cbd5e1;border:1px solid #cbd5e1;margin:18px 0 24px}
+.sheet-row{display:contents}.sheet-day{background:#0f172a;color:white;text-align:center;font-weight:700;padding:10px}
+.sheet-time{background:#f1f5f9;padding:10px 5px;text-align:center;font-size:11px;color:#334155}.sheet-cell{background:white;min-height:66px;padding:10px;text-align:center}
+.sheet-cell b{font-size:15px;color:#1e40af}.sheet-cell span{display:block;font-size:11px;color:#475569;margin-top:4px}
+.plan-sheet>h3{font-size:17px;margin:18px 0 10px}.sheet-course{padding:12px 0;border-bottom:1px solid #e2e8f0;overflow-wrap:anywhere}
+.sheet-course h3{font-size:14px;margin:0 0 6px}.sheet-course p{font-size:12px;margin:4px 0;color:#334155}.sheet-course h4{margin:12px 0 6px}
+.sheet-course-grid{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:18px}.sheet-course-grid .sheet-course{padding:16px;border:1px solid #cbd5e1;border-radius:8px}
+.sheet-course table{width:100%;border-collapse:collapse;font-size:12px}.sheet-course td{padding:5px;border-bottom:1px solid #e2e8f0}.sheet-course td:last-child{font-weight:700;text-align:right;white-space:nowrap}
+.sheet-course ul{padding-left:18px;font-size:12px}.sheet-course li{margin:5px 0}.sheet-review{background:#fffbeb;padding:10px;font-size:11px;margin-top:12px;color:#78350f}
+.sheet-footer{padding:16px 0 0;margin-top:14px;color:#475569;font-size:11px;border-top:1px solid #cbd5e1}
+.share-modal{width:760px}.share-modes{margin-bottom:14px}.share-actions{display:flex;gap:10px;flex-wrap:wrap}.share-actions button{font-size:14px;font-weight:650}
+.share-status,.share-help{font-size:13px;margin:12px 0!important}.share-preview{display:block;width:100%;height:auto;border:1px solid #cbd5e1;border-radius:7px;background:white}
+.share-capture{position:absolute;left:-12000px;top:0;pointer-events:none;width:1000px}.share-capture .plan-sheet{width:1000px}
+@media(max-width:700px){.share-actions button{flex:1 1 auto;font-size:13px}.plan-heading>div{width:100%}.plan-heading>div>span{flex:1 1 100%}}
+
+.selected-sheet-scroll .plan-sheet{width:100%;min-width:760px}

@@ -15,7 +15,8 @@ The existing Term 4 selector now uses the 9 October 2026, 16:00 consolidated tim
 - Thursday double sessions, including Investment Banking, reserve both afternoon slots on Thursday only.
 - **Workshops are opt-in:** they stay hidden until **Include workshops** is checked. Turning it off removes selected workshops and their credits from the plan; regular choices remain. Each selected workshop also has a Remove control. The preference saves on the device.
 - When enabled, workshops show December dates, overlap rules, travel exclusions and BPIM restrictions.
-- Device-local saving, reject/restore controls, text download and selected-schedule image export. Term 6 uses separate storage keys from Term 4.
+- **Share / download plan** is available in the top bar, My plan and Selected schedule. Choose a timetable PNG or a course-summary PNG (full names, faculty, credits, times, available assessments and flagged outline gaps). The complete week is rendered at a fixed width so phone exports include every day. Native **Share image** appears when file sharing is supported; otherwise download the PNG and attach it in a messaging app. Text download remains available. Images are prepared before the Share click to preserve browser user activation. Cancelling sharing leaves the plan intact.
+- Device-local saving and reject/restore controls. Term 6 uses separate storage keys from Term 4.
 - Mapping review with source cells, unresolved questions and downloadable JSON.
 
 ## What outlines are missing?

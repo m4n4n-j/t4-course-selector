@@ -6,8 +6,8 @@ The existing Term 4 selector now uses the 9 October 2026, 16:00 consolidated tim
 
 ## Student features
 
-- My programme selector blocks explicit exclusions (BGS for PGP/PGPBA, DBWAI for PGPBA, PBM for PGPEM). Other eligibility remains subject to confirmation.
-- **Browse all courses is the starting view:** all 46 courses appear with full names, sorted alphabetically. Programme restrictions do not hide courses. Search by title, acronym, faculty or area; reset filters with **Show all courses**.
+- Every course can be added to the planner, regardless of programme anchor. Programme restrictions from the supplied documents remain visible in Details for enrolment checks; the planner does not enforce them.
+- **Calendar is the starting view**, with all 46 courses and all programme anchors shown. Select **Browse all courses** in the top navigation for the alphabetical list with full names. Search by title, acronym, faculty or area; reset filters with **Show all courses**.
 - Calendar cards use prominent course codes with smaller full names underneath; long names fit within two lines. Tap the title/info control for the complete name and details. The grid starts at 842px wide with sticky day and time labels, so larger screens show the week with less scrolling. My plan and schedule exports retain full names. **Details** opens course information; **Add to plan** selects an offering.
 - Drag an offering into My plan or a scheduled calendar cell. Tap controls also work on phones. Fixed class times cannot be moved.
 - Clashes are blocked across every actual teaching day and session. Choose one offering per timetable acronym. Swapping groups checks against the other selected courses.
@@ -79,6 +79,6 @@ No arbitrary six-course cap is carried over: Term 6 limits were not supplied. Co
 
 ## Validation
 
-Scheduling tests cover ZMT group alternatives, section swaps, exact-day conflicts, Thursday double sessions, damaged/stale saved choices, campus workshop dates, travel exclusions and BPIM exclusions. The parsing audit reconciles all 102 regular source cells exactly once and verifies current evaluation totals (100%, except IMC which uses a 50-mark scale) and explicit programme exclusions. Opt-in checks ensure saved workshops do not reappear when disabled or under BPIM restrictions. Production Vite build must pass before deployment.
+Scheduling tests cover ZMT group alternatives, section swaps, exact-day conflicts, Thursday double sessions, damaged/stale saved choices, campus workshop dates, travel exclusions and BPIM exclusions. The parsing audit reconciles all 102 regular source cells exactly once and verifies current evaluation totals (100%, except IMC which uses a 50-mark scale) and the programme exclusions recorded in source data. The interface allows all courses for planning while retaining those notes for enrolment checks. Opt-in checks ensure saved workshops do not reappear when disabled or under BPIM restrictions. Production Vite build must pass before deployment.
 
 Browser visual/drag-and-drop QA was unavailable in the development environment; build and scheduling/data checks do not establish browser rendering or image-export behaviour.

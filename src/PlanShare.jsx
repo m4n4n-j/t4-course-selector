@@ -21,7 +21,7 @@ export function PlanSheet({data, selections, selectedWorkshops, captureRef}) {
     <h3>Selected courses</h3>
     <div className="sheet-course-list">{selected.map(c=>{const section=selections[c.id],palette=courseAreaStyle(c.area);return <article className="sheet-course sheet-course-coloured" key={c.id} style={{borderLeftColor:palette.color}}><h3>{c.id} · {c.name}</h3><p><strong>{palette.label}</strong> · {c.faculty || 'Faculty unconfirmed'} · {c.credits ? `${c.credits} credits` : 'Credits unconfirmed'}</p><p><b>{section.label}</b> · {meetingLabel(section)}</p></article>;})}</div>
     {selectedWorkshops.length > 0 && <><h3>Selected workshops</h3>{selectedWorkshops.map(w=>{const palette=courseAreaStyle(w.area);return <article className="sheet-course sheet-course-coloured" key={w.id} style={{borderLeftColor:palette.color}}><h3>{w.name}</h3><p><strong>{palette.label}</strong> · {w.faculty} · {w.credits} credits · {w.anchor}</p><p>{w.startDate}–{w.endDate}{w.start ? ` · ${w.start}–${w.end}` : ' · Travel workshop'}</p></article>;})}</>}
-    <footer className="sheet-footer">Timetable source: {data.version}. Programme eligibility and flagged mappings need confirmation. PRE/POST clashes are checked conservatively.</footer>
+    <footer className="sheet-footer">Timetable source: {data.version}. Programme eligibility and flagged mappings need confirmation. Pre-mid (PRE) and post-mid (POST) courses run in separate halves of the term and can be taken simultaneously.</footer>
   </div>;
 }
 

@@ -1,0 +1,710 @@
+{
+  "courseCodes": {
+    "IM": "EC740",
+    "GCK": "AC702",
+    "SPM": "IS728",
+    "ELRB": "OH706",
+    "EL": "OB763",
+    "PM": "PO738",
+    "SL": "CS716",
+    "AIS": "CS772",
+    "SMBD": "QM704",
+    "DVS": "DS713",
+    "BSCP": "EC752",
+    "EM": "EN721",
+    "NEF": "FI720",
+    "IB": "FI713",
+    "CBM": "FI726",
+    "TEP": "DN715",
+    "ZMT": "DN714",
+    "EAD": "DN707",
+    "IHP": "DN702",
+    "IWR": "DN710",
+    "RAI": "IS736",
+    "IMC": "CM710",
+    "DMS": "MK769",
+    "GM": "MK770",
+    "RMD": "MK715",
+    "MC": "MK731",
+    "MCST": "OB754",
+    "DM": "OB711",
+    "SDM": "PO737",
+    "EPCP": "PP747",
+    "IBF": "PP755",
+    "LCF": "CS735",
+    "SMMEI": "CS732",
+    "WS_11": "MK771",
+    "WS_5": "CS773",
+    "WS_14": "DN701",
+    "AIEM": "EN725",
+    "LETB": "OB769",
+    "FME": "PP756",
+    "SPSF": "CS774",
+    "WS_7": "MK776",
+    "WS_9": "MK777",
+    "WS_10": "DS723",
+    "TSFT": "DS724",
+    "SEII": "EN723",
+    "WS_8": "EN724",
+    "WS_6": "CM714",
+    "BBM": "MK718",
+    "PBM": "CS756",
+    "STDM": "CS741",
+    "CB": "MK701",
+    "MA": "MK765",
+    "DBWAI": "IS740",
+    "WS_12": "CS733"
+  },
+  "biddingStats": {
+    "IM": [
+      {
+        "programme": "PGPEM",
+        "code": "EC740",
+        "mrb": 976,
+        "bidderCount": 43,
+        "maxSeats": 22,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "GCK": [
+      {
+        "programme": "PGPEM",
+        "code": "AC702",
+        "mrb": 11,
+        "bidderCount": 33,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      },
+      {
+        "programme": "EPGP",
+        "code": "AC702",
+        "mrb": 0,
+        "bidderCount": 8,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "SPM": [
+      {
+        "programme": "PGPEM",
+        "code": "IS728",
+        "mrb": 0,
+        "bidderCount": 0,
+        "maxSeats": 0,
+        "actionTypeName": "Both Add and Drop allowed"
+      },
+      {
+        "programme": "PGP",
+        "code": "IS728",
+        "mrb": 0,
+        "bidderCount": 49,
+        "maxSeats": 55,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "ELRB": [
+      {
+        "programme": "PGPEM",
+        "code": "OH706",
+        "mrb": 0,
+        "bidderCount": 15,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "EL": [
+      {
+        "programme": "PGPEM",
+        "code": "OB763",
+        "mrb": 0,
+        "bidderCount": 19,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "PM": [
+      {
+        "programme": "PGPEM",
+        "code": "PO738",
+        "mrb": 501,
+        "bidderCount": 35,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "SL": [
+      {
+        "programme": "PGPEM",
+        "code": "CS716",
+        "mrb": 4,
+        "bidderCount": 24,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      },
+      {
+        "programme": "PGP",
+        "code": "CS716",
+        "mrb": 0,
+        "bidderCount": 24,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "AIS": [
+      {
+        "programme": "PGPEM",
+        "code": "CS772",
+        "mrb": 551,
+        "bidderCount": 14,
+        "maxSeats": 10,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "SMBD": [
+      {
+        "programme": "PGP",
+        "code": "QM704",
+        "mrb": 0,
+        "bidderCount": 23,
+        "maxSeats": 55,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "DVS": [
+      {
+        "programme": "PGP",
+        "code": "DS713",
+        "mrb": 1,
+        "bidderCount": 31,
+        "maxSeats": 30,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "BSCP": [
+      {
+        "programme": "PGP",
+        "code": "EC752",
+        "mrb": 0,
+        "bidderCount": 63,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "EM": [
+      {
+        "programme": "PGP",
+        "code": "EN721",
+        "mrb": 0,
+        "bidderCount": 29,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "NEF": [
+      {
+        "programme": "PGP",
+        "code": "FI720",
+        "mrb": 0,
+        "bidderCount": 18,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "IB": [
+      {
+        "programme": "PGP",
+        "code": "FI713",
+        "mrb": 0,
+        "bidderCount": 35,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "CBM": [
+      {
+        "programme": "PGP",
+        "code": "FI726",
+        "mrb": 0,
+        "bidderCount": 10,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "TEP": [
+      {
+        "programme": "PGP",
+        "code": "DN715",
+        "mrb": 0,
+        "bidderCount": 22,
+        "maxSeats": 32,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "ZMT": [
+      {
+        "programme": "PGP",
+        "code": "DN714",
+        "mrb": 0,
+        "bidderCount": 50,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "EAD": [
+      {
+        "programme": "PGP",
+        "code": "DN707",
+        "mrb": 73,
+        "bidderCount": 87,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "IHP": [
+      {
+        "programme": "PGP",
+        "code": "DN702",
+        "mrb": 0,
+        "bidderCount": 53,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "IWR": [
+      {
+        "programme": "PGP",
+        "code": "DN710",
+        "mrb": 0,
+        "bidderCount": 54,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "RAI": [
+      {
+        "programme": "PGP",
+        "code": "IS736",
+        "mrb": 3,
+        "bidderCount": 74,
+        "maxSeats": 55,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "IMC": [
+      {
+        "programme": "PGP",
+        "code": "CM710",
+        "mrb": 0,
+        "bidderCount": 11,
+        "maxSeats": 32,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "DMS": [
+      {
+        "programme": "PGP",
+        "code": "MK769",
+        "mrb": 0,
+        "bidderCount": 26,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "GM": [
+      {
+        "programme": "PGP",
+        "code": "MK770",
+        "mrb": 1,
+        "bidderCount": 79,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "RMD": [
+      {
+        "programme": "PGP",
+        "code": "MK715",
+        "mrb": 0,
+        "bidderCount": 22,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      },
+      {
+        "programme": "EPGP",
+        "code": "MK715",
+        "mrb": 0,
+        "bidderCount": 13,
+        "maxSeats": 30,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "MC": [
+      {
+        "programme": "PGP",
+        "code": "MK731",
+        "mrb": 0,
+        "bidderCount": 14,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "MCST": [
+      {
+        "programme": "PGP",
+        "code": "OB754",
+        "mrb": 1,
+        "bidderCount": 77,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "DM": [
+      {
+        "programme": "PGP",
+        "code": "OB711",
+        "mrb": 0,
+        "bidderCount": 13,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "SDM": [
+      {
+        "programme": "PGP",
+        "code": "PO737",
+        "mrb": 0,
+        "bidderCount": 46,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "EPCP": [
+      {
+        "programme": "PGP",
+        "code": "PP747",
+        "mrb": 0,
+        "bidderCount": 36,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "IBF": [
+      {
+        "programme": "PGP",
+        "code": "PP755",
+        "mrb": 0,
+        "bidderCount": 17,
+        "maxSeats": 67,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "LCF": [
+      {
+        "programme": "PGP",
+        "code": "CS735",
+        "mrb": 0,
+        "bidderCount": 12,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "SMMEI": [
+      {
+        "programme": "PGP",
+        "code": "CS732",
+        "mrb": 0,
+        "bidderCount": 54,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "WS_11": [
+      {
+        "programme": "PGP",
+        "code": "MK771",
+        "mrb": 0,
+        "bidderCount": 8,
+        "maxSeats": 32,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "WS_5": [
+      {
+        "programme": "PGP",
+        "code": "CS773",
+        "mrb": 0,
+        "bidderCount": 2,
+        "maxSeats": 32,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "WS_14": [
+      {
+        "programme": "PGP",
+        "code": "DN701",
+        "mrb": 0,
+        "bidderCount": 33,
+        "maxSeats": 44,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "AIEM": [
+      {
+        "programme": "PGP",
+        "code": "EN725",
+        "mrb": 0,
+        "bidderCount": 25,
+        "maxSeats": 55,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "LETB": [
+      {
+        "programme": "PGP",
+        "code": "OB769",
+        "mrb": 0,
+        "bidderCount": 11,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "FME": [
+      {
+        "programme": "PGP",
+        "code": "PP756",
+        "mrb": 0,
+        "bidderCount": 7,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "SPSF": [
+      {
+        "programme": "PGP",
+        "code": "CS774",
+        "mrb": 0,
+        "bidderCount": 9,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "WS_7": [
+      {
+        "programme": "PGP",
+        "code": "MK776",
+        "mrb": 0,
+        "bidderCount": 18,
+        "maxSeats": 32,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "WS_9": [
+      {
+        "programme": "PGP",
+        "code": "MK777",
+        "mrb": 0,
+        "bidderCount": 5,
+        "maxSeats": 32,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "WS_10": [
+      {
+        "programme": "PGP",
+        "code": "DS723",
+        "mrb": 0,
+        "bidderCount": 12,
+        "maxSeats": 32,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "TSFT": [
+      {
+        "programme": "PGP",
+        "code": "DS724",
+        "mrb": 0,
+        "bidderCount": 18,
+        "maxSeats": 75,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "SEII": [
+      {
+        "programme": "PGP",
+        "code": "EN723",
+        "mrb": 0,
+        "bidderCount": 43,
+        "maxSeats": 67,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "WS_8": [
+      {
+        "programme": "PGP",
+        "code": "EN724",
+        "mrb": 0,
+        "bidderCount": 11,
+        "maxSeats": 32,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "WS_6": [
+      {
+        "programme": "PGPEM",
+        "code": "CM714",
+        "mrb": 0,
+        "bidderCount": 0,
+        "maxSeats": 0,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "BBM": [
+      {
+        "programme": "EPGP",
+        "code": "MK718",
+        "mrb": 0,
+        "bidderCount": 13,
+        "maxSeats": 25,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "PBM": [
+      {
+        "programme": "EPGP",
+        "code": "CS756",
+        "mrb": 0,
+        "bidderCount": 11,
+        "maxSeats": 20,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ],
+    "STDM": [
+      {
+        "programme": "EPGP",
+        "code": "CS741",
+        "mrb": 0,
+        "bidderCount": 16,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "CB": [
+      {
+        "programme": "EPGP",
+        "code": "MK701",
+        "mrb": 0,
+        "bidderCount": 11,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "MA": [
+      {
+        "programme": "EPGP",
+        "code": "MK765",
+        "mrb": 0,
+        "bidderCount": 13,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "DBWAI": [
+      {
+        "programme": "EPGP",
+        "code": "IS740",
+        "mrb": 1,
+        "bidderCount": 28,
+        "maxSeats": 20,
+        "actionTypeName": "Both Add and Drop allowed"
+      }
+    ],
+    "WS_12": [
+      {
+        "programme": "EPGP",
+        "code": "CS733",
+        "mrb": 751,
+        "bidderCount": 9,
+        "maxSeats": 5,
+        "actionTypeName": "Neither Add Nor Drop allowed"
+      }
+    ]
+  },
+  "myAllocation": {
+    "roundId": 23,
+    "confirmedCredits": 15,
+    "attemptedCredits": 15,
+    "usedBidPoints": 997,
+    "selectedCourses": [
+      {
+        "courseId": "IM",
+        "code": "EC740",
+        "name": "International Macroeconomics",
+        "sectionAnchor": "PGPEM",
+        "sectionId": "IM_PGPEM_FS_FULL_4",
+        "professor": "Chetan Subramanian",
+        "credits": 3,
+        "bidPoints": 997,
+        "mrb": 976,
+        "maxSeats": 22,
+        "bidderCount": 43,
+        "isWinning": true
+      },
+      {
+        "courseId": "BSCP",
+        "code": "EC752",
+        "name": "Business Strategy and Competition Policy",
+        "sectionAnchor": "PGP",
+        "sectionId": "BSCP_PGP_WT_FULL_3",
+        "professor": "Gaurav Jakhu",
+        "credits": 3,
+        "bidPoints": 0,
+        "mrb": 0,
+        "maxSeats": 67,
+        "bidderCount": 63,
+        "isWinning": true
+      },
+      {
+        "courseId": "IB",
+        "code": "FI713",
+        "name": "Investment Banking",
+        "sectionAnchor": "PGP",
+        "sectionId": "IB_PGP_WT_FULL_4-5",
+        "professor": "Srijith Mohanan",
+        "credits": 3,
+        "bidPoints": 0,
+        "mrb": 0,
+        "maxSeats": 67,
+        "bidderCount": 35,
+        "isWinning": true
+      },
+      {
+        "courseId": "GCK",
+        "code": "AC702",
+        "name": "General Commercial Knowledge",
+        "sectionAnchor": "EPGP",
+        "sectionId": "GCK_EPGP_FS_FULL_2",
+        "professor": "Shanker Subramoney",
+        "credits": 3,
+        "bidPoints": 0,
+        "mrb": 0,
+        "maxSeats": 20,
+        "bidderCount": 8,
+        "isWinning": true
+      },
+      {
+        "courseId": "STDM",
+        "code": "CS741",
+        "name": "Strategic Thinking and Decision Making",
+        "sectionAnchor": "EPGP",
+        "sectionId": "STDM_EPGP_FS_FULL_3",
+        "professor": "V N Bhattacharya",
+        "credits": 3,
+        "bidPoints": 0,
+        "mrb": 0,
+        "maxSeats": 20,
+        "bidderCount": 16,
+        "isWinning": true
+      }
+    ]
+  }
+}

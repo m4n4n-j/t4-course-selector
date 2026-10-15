@@ -1,0 +1,250 @@
+{
+  "PM": {
+    "courseId": "PM",
+    "name": "Project Management",
+    "faculty": "G Anand Anandalingam",
+    "sentiment": "recco",
+    "badge": "★ 10/10 Senior Recco",
+    "badgeType": "star",
+    "headline": "10/10 recommended with zero MT/ET and minimal project effort",
+    "tags": ["10/10 Recco", "No MT/ET", "Low Effort Project", "Chill"],
+    "reviews": [
+      {
+        "quote": "PM 10/10 recommended. It was no MT no ET course for us and ironically, PM's project required least effort.",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "SMMEI": {
+    "courseId": "SMMEI",
+    "name": "Strategic Management in Media and Entertainment Industry",
+    "faculty": "S Raghunath",
+    "sentiment": "recco",
+    "badge": "★ Term 6 Pick 🍿",
+    "badgeType": "popcorn",
+    "headline": "Made for 6th term with movies every class — absolute classic",
+    "tags": ["Made for Term 6 💯", "Movie In Every Class", "Zero Stress"],
+    "reviews": [
+      {
+        "quote": "Course made for 6th term 💯\nMovie in every class\nPopcorn khao so jao",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "MC": {
+    "courseId": "MC",
+    "name": "Marketing Communications",
+    "faculty": "Sambasivan Moorthy",
+    "sentiment": "recco",
+    "badge": "★ Top Recco · Amazing Prof",
+    "badgeType": "star",
+    "headline": "One of the best professors at IIMB; high effort but high reward",
+    "tags": ["Amazing Prof", "Consumer Insights", "High Effort / High Reward", "Must Take"],
+    "reviews": [
+      {
+        "quote": "MarComms by Sam Moorthy - AMAZING course, especially if you're marketing (I wasn't and almost considered switching careers after this course), interesting cases and discussions, great consumer insights, but high effort (Prof. is fun and approachable but he won't give you leeway just because it's term six), personally would recommend despite effort because he's easily one of the best profs we have at IIMB",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "MC lelo bhai. Mehnat lagegi par maza aayega",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "MC is also amazing. One of the best profs in IIMB along with Ramesh Venkatesvarn's PSM i came across",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "GM": {
+    "courseId": "GM",
+    "name": "Global Marketing",
+    "faculty": "Malika",
+    "sentiment": "recco",
+    "badge": "★ Senior Recco",
+    "badgeType": "star",
+    "headline": "Top marketing pick; super fun class with goodies, easy to score very well with regular CP",
+    "tags": ["GM Best", "Super Fun Class", "Lot of Goodies", "Score Well with CP"],
+    "reviews": [
+      {
+        "quote": "GM best",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "Global marketing - Super fun class, lot of goodies. If you do some CP, you’ll deffo score very well",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "BBM": {
+    "courseId": "BBM",
+    "name": "Business to Business Marketing",
+    "faculty": "Mohan Kuruvilla",
+    "sentiment": "recco",
+    "badge": "★ Entertaining Prof · Intent Edge",
+    "badgeType": "star",
+    "headline": "Excellent teaching style and entertaining cases; high differentiation in CP and project with clear canteen-connect strategy",
+    "tags": ["Entertaining Teaching", "Great Cases", "Canteen Connect Edge", "Peaceful if Chilling"],
+    "reviews": [
+      {
+        "quote": "Kuruvila cutie hai ❤️🤏🏼\nProfessor ki teaching style excellent…. Too good, case padh k aaoge to you will be entertained\nRead about him online on Reddit and all. Samajh jaoge\nCP and project me bahot jyada differentiate karega. Isme seedha funda hai ki uski najar me raho aur class k bahar mil k apna naam batate raho. He goes to the staff canteen after every class so usko waha chai coffee pine tak escort karo aur beth k baate karo. just show intent and interest. Kaam kuch mat karna chahe project me. Mil jayege marks with a significant edge.\nEnd term was good, 30 marks ka tha shayad and it had 10 ques jisme se 6 attempt krne the probably. Aisa sa pattern tha.\n\nBaki marks aur in sab se matlab nahi to you can sleep peacefully, he will not disturb you ever.",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "EAD": {
+    "courseId": "EAD",
+    "name": "Exploring Architecture and Design: Lessons for Managers",
+    "faculty": "Kiran Keswani",
+    "sentiment": "chill",
+    "badge": "Zero BT ☕",
+    "badgeType": "chill",
+    "headline": "Zero BT course with a chill professor, thoroughly enjoyable and fun in-class activities",
+    "tags": ["Zero BT", "Super Chill", "Fun In-Class Activities", "Enjoyable"],
+    "reviews": [
+      {
+        "quote": "Zero BT course",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "EAD - interesting course and chill prof. enjoyed it thoroughly. lot of in class graded activities (fun tho)",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "BSCP": {
+    "courseId": "BSCP",
+    "name": "Business Strategy and Competition Policy",
+    "faculty": "Gaurav Jakhu",
+    "sentiment": "chill",
+    "badge": "Chill · Exam Friendly",
+    "badgeType": "chill",
+    "headline": "Super chill course with familiar ME style and straightforward exams",
+    "tags": ["Ekdum Chill", "Similar to ME", "Slide Friendly"],
+    "reviews": [
+      {
+        "quote": "Ekdum chill course hai, agar prof se ME padha ho toh similar hi padhayenge. MT aur ET me silly mistake nhi karoge toh maje aa jayenge. Learning wise I can't comment because exam ke ek din pehle hi slides khole the.",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "EM": {
+    "courseId": "EM",
+    "name": "Entrepreneurial Marketing",
+    "faculty": "Ludvig Levasseur",
+    "sentiment": "chill",
+    "badge": "Chill · Easy Scoring",
+    "badgeType": "chill",
+    "headline": "Chill professor, easy to score well with regular CP",
+    "tags": ["Very Chill Prof", "Easy Scoring", "CP Friendly"],
+    "reviews": [
+      {
+        "quote": "0 learning, cp can be done from chat gpt literally. Prof is very chill, easy to score well if you do cp",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "SPM": {
+    "courseId": "SPM",
+    "name": "Software Product Management",
+    "faculty": "Haragopal Mangipudi",
+    "sentiment": "chill",
+    "badge": "Super Chill · Low Effort",
+    "badgeType": "chill",
+    "headline": "Evening slot, super chill in-class environment and simple exams",
+    "tags": ["Super Chill", "Evening Classes", "Simple Exams", "No Classroom Restrictions"],
+    "reviews": [
+      {
+        "quote": "SPM was pretty chill, classes are in the evening and the professor really doesn't care about what you do in class. The content is more useful if you're trying to build a business in the field ig? But the exams are fairly simple. Overall chill course",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "SPM - Super chill course, doesn't matter if you know tech/PM or not, no effort, no restrictions inside the classroom, project you have to do with a company but if you can wing it (PM aspirants, it's not a major value add so don't compromise and take separate days from your friends like I did😭)",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "MCST": {
+    "courseId": "MCST",
+    "name": "Managing Career Success & Transition",
+    "faculty": "Gopal Mahapatra",
+    "sentiment": "chill",
+    "badge": "Good Course · Chill Activity",
+    "badgeType": "chill",
+    "headline": "In-class group activities with low-pressure participation",
+    "tags": ["Good Course", "In-Class Activities", "Chill Timepass"],
+    "reviews": [
+      {
+        "quote": "MCST - good course . Bas sir tumhe har session me group activity karne ko bolenge and phir may ask someone randomly to answer. Nahi answer diya to bhi chalega\n\nAccha timepass hota hai.",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "DMS": {
+    "courseId": "DMS",
+    "name": "Digital Marketing Strategies",
+    "faculty": "G Shainesh",
+    "sentiment": "chill",
+    "badge": "Nice Prof · Tedious Simulation",
+    "badgeType": "chill",
+    "headline": "Nice prof and content, but includes a tedious 10-round simulation that tests grit",
+    "tags": ["Nice Prof", "Good Content", "10-Round Simulation", "Grit Required"],
+    "reviews": [
+      {
+        "quote": "Prof is nice, course content is also nice, but there's a simulation which is a course component and that's not nice\nIt's boring, jab tak aap dimaag chalakar 1 round clear karoge dusre round ka time aa jaayega. And there are 10 rounds. It can potentially be interesting, but only if you really see it through to the end with the same grit",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "PBM": {
+    "courseId": "PBM",
+    "name": "Platform Business Models",
+    "faculty": "R Srinivasan",
+    "sentiment": "heavy",
+    "badge": "⚠️ Heavy · Avoid in Placements",
+    "badgeType": "warning",
+    "headline": "Heavy workload, strict CP, 40% project; seniors advise avoiding if in placements",
+    "tags": ["Heavy Course", "Avoid in Placements", "Strict CP", "No Devices Allowed"],
+    "reviews": [
+      {
+        "quote": "For those who are reaching out for Platform Business Model (PBM - Thurs slot me 2 lectures):\nPlacement me Beth rahe ho to avoid hi karna…. Heavy hai course. Har week case padh k Jana, Proff differentiates in CP very much, 40 marks ka heavy project jisme you need to select from some list of projects jo Proff khud dega, you can’t even choose on your own. Bahot sare submissions, project k liye you need to keep on meeting the industry folks and all. Poora bhaang bhosda course hai. Upar se aadhe time EPGP wale log faltu joke maarte rahte hain.\nProff won’t even allow phones and laptops. Sone bhi nahi deta, jaga dega bich bich me.",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "DM": {
+    "courseId": "DM",
+    "name": "Decision Making",
+    "faculty": "Kanchan Mukherjee",
+    "sentiment": "heavy",
+    "badge": "⚠️ Avoid · Negative Feedback",
+    "badgeType": "warning",
+    "headline": "Seniors strongly advise against taking this course: 'Worst decision to take this course ever!'",
+    "tags": ["Strong Avoid", "High Dissatisfaction", "Senior Warning"],
+    "reviews": [
+      {
+        "quote": "There is nothing good about this course. @~Rushabh Kothari is the right person for this",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "Worst decision to take this course ever!",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "WS_11": {
+    "courseId": "WS_11",
+    "name": "Marcomms at Work",
+    "faculty": "Sambasivan Moorthy",
+    "sentiment": "recco",
+    "badge": "★ Sam Moorthy Recco",
+    "badgeType": "star",
+    "headline": "Workshop taught by Sam Moorthy — highly praised marketing faculty",
+    "tags": ["Amazing Prof", "Sam Moorthy", "Top Marketing Faculty"],
+    "reviews": [
+      {
+        "quote": "MarComms by Sam Moorthy - AMAZING course, especially if you're marketing. Interesting cases and discussions, great consumer insights, easily one of the best profs we have at IIMB.",
+        "author": "IIMB Senior"
+      }
+    ]
+  }
+}

@@ -76,3 +76,33 @@ test('workshops require opt-in, including saved selections', () => {
   assert.deepEqual(restoreWorkshops(saved,data.workshops,true,true),[]);
   assert.deepEqual(restoreWorkshops(saved,data.workshops,true).map(w=>w.id),[early.id,late.id]);
 });
+
+test('pre-mid (IHP) and post-mid (IWR) can be selected simultaneously without clashing', () => {
+  const ihp = course('IHP');
+  const iwr = course('IWR');
+  const gm = course('GM');
+  const ihpSection = ihp.sections[0];
+  const iwrSection = iwr.sections[0];
+  const gmSection = gm.sections[0];
+
+  assert.equal(ihpSection.phase, 'PRE');
+  assert.equal(iwrSection.phase, 'POST');
+  assert.equal(conflictWith(iwrSection, { IHP: ihpSection }, 'IWR'), null);
+  assert.equal(conflictWith(ihpSection, { IWR: iwrSection }, 'IHP'), null);
+
+  const withBoth = selectSection({ IHP: ihpSection }, iwr, iwrSection);
+  assert.equal(withBoth.conflict, null);
+  assert.equal(withBoth.selections.IHP.id, ihpSection.id);
+  assert.equal(withBoth.selections.IWR.id, iwrSection.id);
+
+  // Full-term course GM in the same timeslot clashes with both
+  assert.equal(conflictWith(gmSection, { IHP: ihpSection }, 'GM'), 'IHP');
+  assert.equal(conflictWith(gmSection, { IWR: iwrSection }, 'GM'), 'IWR');
+  assert.equal(conflictWith(ihpSection, { GM: gmSection }, 'IHP'), 'GM');
+  assert.equal(conflictWith(iwrSection, { GM: gmSection }, 'IWR'), 'GM');
+
+  const restored = restoreSelections(JSON.stringify({ IHP: ihpSection.id, IWR: iwrSection.id }), data.courses);
+  assert.equal(restored.IHP.id, ihpSection.id);
+  assert.equal(restored.IWR.id, iwrSection.id);
+});
+

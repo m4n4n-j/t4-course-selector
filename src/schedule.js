@@ -3,9 +3,19 @@ export const minutes = time => Number(time.split(':')[0]) * 60 + Number(time.spl
 export function overlaps(a, b) {
   return a.day === b.day && minutes(a.start) < minutes(b.end) && minutes(b.start) < minutes(a.end);
 }
+export function phasesOverlap(phaseA, phaseB) {
+  if (phaseA && phaseB && String(phaseA).toUpperCase() !== String(phaseB).toUpperCase()) {
+    return false;
+  }
+  return true;
+}
+export function sectionsConflict(sectionA, sectionB) {
+  if (!phasesOverlap(sectionA?.phase, sectionB?.phase)) return false;
+  return sectionA.meetings.some(a => sectionB.meetings.some(b => overlaps(a, b)));
+}
 export function conflictWith(section, selections, courseId) {
   return Object.entries(selections).filter(([id]) => id !== courseId)
-    .find(([, other]) => section.meetings.some(a => other.meetings.some(b => overlaps(a, b))))?.[0] || null;
+    .find(([, other]) => sectionsConflict(section, other))?.[0] || null;
 }
 export function eligibilityIssue(course, programme) {
   return course.blockedProgrammes?.includes(programme) ? `${course.id} is not offered to ${programme} according to the supplied programme rules.` : null;

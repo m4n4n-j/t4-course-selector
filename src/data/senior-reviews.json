@@ -231,6 +231,22 @@
       }
     ]
   },
+  "CBM": {
+    "courseId": "CBM",
+    "name": "Commercial Bank Management",
+    "faculty": "M Jayadev",
+    "sentiment": "heavy",
+    "badge": "⚠️ Heavy · High Caution",
+    "badgeType": "warning",
+    "headline": "Strict professor, undisclosed grading, rigid classroom rules — only for CAs/banking background",
+    "tags": ["High Caution", "Strict Attendance & Rules", "CA / Banking Only", "Opaque Grading", "Bacho Bhai Bacho"],
+    "reviews": [
+      {
+        "quote": "CBM professor - Orthodox male in his 60s. Is course me sirf 25 log the last year and I couldn’t drop because of the min students rule. If you are a CA or someone with banking experience to theek h le lo warna leave it. He doesn’t upload the slides on time, ajeeb se questions in the quizzes, very weird marking schemes, didn’t disclose the marks and grades out kar di. Class me phone nahi chalane deta, baat nahi karne deta. Bacho bhai bacho",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
   "WS_11": {
     "courseId": "WS_11",
     "name": "Marcomms at Work",
@@ -248,3 +264,4 @@
     ]
   }
 }
+

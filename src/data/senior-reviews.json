@@ -22,11 +22,15 @@
     "sentiment": "recco",
     "badge": "★ Term 6 Pick 🍿",
     "badgeType": "popcorn",
-    "headline": "Made for 6th term with movies every class — absolute classic",
-    "tags": ["Made for Term 6 💯", "Movie In Every Class", "Zero Stress"],
+    "headline": "Typical Term 6 course with movies every class, super chill prof, and easy CP once or twice",
+    "tags": ["Made for Term 6 💯", "Movie In Every Class", "Super Chill Prof", "Easy CP Once or Twice", "Zero Stress"],
     "reviews": [
       {
         "quote": "Course made for 6th term 💯\nMovie in every class\nPopcorn khao so jao",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "SMMEI:- Super chill course, super chill professor. Just do CP in class once or twice. Take a bid for it if you are interested to know what goes behind strategy for making movies. Typical term 6 course.",
         "author": "IIMB Senior"
       }
     ]
@@ -116,13 +120,17 @@
     "name": "Business Strategy and Competition Policy",
     "faculty": "Gaurav Jakhu",
     "sentiment": "chill",
-    "badge": "Chill · Exam Friendly",
+    "badge": "Chill · No-Brainer ☕",
     "badgeType": "chill",
-    "headline": "Super chill course with familiar ME style and straightforward exams",
-    "tags": ["Ekdum Chill", "Similar to ME", "Slide Friendly"],
+    "headline": "Timepass, no-brainer course with chill prof (occasional temper); very exam-friendly if you avoid silly mistakes",
+    "tags": ["Ekdum Chill", "No Brainer Course", "Timepass", "Similar to ME", "Slide Friendly"],
     "reviews": [
       {
         "quote": "Ekdum chill course hai, agar prof se ME padha ho toh similar hi padhayenge. MT aur ET me silly mistake nhi karoge toh maje aa jayenge. Learning wise I can't comment because exam ke ek din pehle hi slides khole the.",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "Timepass course, chill prof (kabhi kabhi gussa hota hai), no brainer course though",
         "author": "IIMB Senior"
       }
     ]
@@ -183,14 +191,18 @@
     "courseId": "DMS",
     "name": "Digital Marketing Strategies",
     "faculty": "G Shainesh",
-    "sentiment": "chill",
-    "badge": "Nice Prof · Tedious Simulation",
-    "badgeType": "chill",
-    "headline": "Nice prof and content, but includes a tedious 10-round simulation that tests grit",
-    "tags": ["Nice Prof", "Good Content", "10-Round Simulation", "Grit Required"],
+    "sentiment": "recco",
+    "badge": "★ Top Prof · 10-Round Sim",
+    "badgeType": "star",
+    "headline": "Excellent professor and must-take for DM enthusiasts, but 10-round simulation is make-or-break",
+    "tags": ["Excellent Prof", "Super Helpful", "10-Round Simulation", "Must Take for DM", "Grit Required"],
     "reviews": [
       {
         "quote": "Prof is nice, course content is also nice, but there's a simulation which is a course component and that's not nice\nIt's boring, jab tak aap dimaag chalakar 1 round clear karoge dusre round ka time aa jaayega. And there are 10 rounds. It can potentially be interesting, but only if you really see it through to the end with the same grit",
+        "author": "IIMB Senior"
+      },
+      {
+        "quote": "DMS - G Shainesh: Excellent professor. Course is also good. Only drawback is it has simulation with 10 rounds — by the time you get to know how it works you are either top of the class or out of the game. Must take if you are really interested in Digital Marketing. You can book Shainesh sir's time if you want to learn more on the particular topic, he is super helpful.",
         "author": "IIMB Senior"
       }
     ]
@@ -262,6 +274,87 @@
         "author": "IIMB Senior"
       }
     ]
+  },
+  "TSFT": {
+    "courseId": "TSFT",
+    "name": "Time Series and Forecasting Techniques",
+    "faculty": "Soudeep Deb",
+    "sentiment": "heavy",
+    "badge": "⚠️ Heavy · Last Sem Caution",
+    "badgeType": "warning",
+    "headline": "Seniors advise against taking this in the final term: 'Why do you want to see Soudeep Deb in last sem?'",
+    "tags": ["Soudeep Deb", "Avoid in Term 6", "Heavy Quantitative", "Eliminated with One Liner"],
+    "reviews": [
+      {
+        "quote": "Why do you want to see Soudeep Deb in last sem?\nEliminated with a one liner 😅",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "GCK": {
+    "courseId": "GCK",
+    "name": "General Commercial Knowledge",
+    "faculty": "Shanker Subramoney",
+    "sentiment": "chill",
+    "badge": "Chill Prof · Random Exams",
+    "badgeType": "chill",
+    "headline": "Chill prof who lets you sleep/use phone, but terminology-heavy and exams have super random questions",
+    "tags": ["Chill Prof", "Phone & Sleep Friendly", "Technical Heavy", "Random Exams"],
+    "reviews": [
+      {
+        "quote": "Good course, chill prof. Lets you sleep/use phone in the class, no worries. Technical-knowledge heavy in terms of keywords/terminology etc. Mid and end terms can be super random because he makes absolutely stupid questions.",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "IHP": {
+    "courseId": "IHP",
+    "name": "Introduction to Hindu Philosophy",
+    "faculty": "Trilochan Sastry",
+    "sentiment": "chill",
+    "badge": "Zero Workload · Exam Only 🕉️",
+    "badgeType": "chill",
+    "headline": "Zero ongoing workload with only exams at the end; professor expects sincere, thoughtful answers",
+    "tags": ["Zero Workload", "Exams Only", "Trilochan Sastry", "Quality Answers Rewarded"],
+    "reviews": [
+      {
+        "quote": "No workload, it’s just exams in the end. Previous batches got some assignments, but we didn’t get any. Haan bohot ghatiya answers likhe tho usko pasand nahi aatha (dislikes poor answers, otherwise very chill).",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "IWR": {
+    "courseId": "IWR",
+    "name": "Introduction to World Religions",
+    "faculty": "Trilochan Sastry",
+    "sentiment": "chill",
+    "badge": "Zero Workload · Exam Only 🌍",
+    "badgeType": "chill",
+    "headline": "Zero ongoing workload with only exams at the end; evaluated on depth and quality of answers",
+    "tags": ["Zero Workload", "Exams Only", "Trilochan Sastry", "Quality Answers Rewarded"],
+    "reviews": [
+      {
+        "quote": "No workload, it’s just exams in the end. Previous batches got some assignments, but we didn’t get any. Haan bohot ghatiya answers likhe tho usko pasand nahi aatha.",
+        "author": "IIMB Senior"
+      }
+    ]
+  },
+  "SL": {
+    "courseId": "SL",
+    "name": "Strategic Leadership",
+    "faculty": "Shubha Patvardhan",
+    "sentiment": "chill",
+    "badge": "Chill if Casual · 30% CP",
+    "badgeType": "chill",
+    "headline": "Competitive for top grades due to 30% CP, but super chill if relaxed about marks with low-effort project and mid-term",
+    "tags": ["30% CP", "Competitive for Grades", "Super Chill if Relaxed", "Low Effort Project", "MT Chill"],
+    "reviews": [
+      {
+        "quote": "SL course load is high if you decide to get marks - CP is 30% and people are also typically competitive. Really chill if you don't read cases though. Project was also chill, ek ya do raat ka effort maara tha shayad. MT also chill.\n\nMy SL and my grade in SL both were super chill.",
+        "author": "IIMB Senior"
+      }
+    ]
   }
 }
+
 
